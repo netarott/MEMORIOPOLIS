@@ -1,0 +1,3 @@
+﻿scenario,dwell_minutes_tau,first_response_minutes_rho,history_count,visible_history_count,final_state
+A_silent_three_hours,180,180,1,1,回答済み
+B_visible_progress_three_hours,180,10,4,3,回答済み

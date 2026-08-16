@@ -1,0 +1,6 @@
+﻿scenario,sequence,observed_at,event_type,visible_to_requester,description
+A_silent_three_hours,2,2026-08-13 12:00,final_response,True,最終回答
+B_visible_progress_three_hours,2,2026-08-13 09:10,receipt,True,受領と確認開始を共有
+B_visible_progress_three_hours,3,2026-08-13 10:00,target_identified,False,確認対象を特定
+B_visible_progress_three_hours,4,2026-08-13 11:00,interim_response,True,中間状況を共有
+B_visible_progress_three_hours,5,2026-08-13 12:00,final_response,True,最終回答
