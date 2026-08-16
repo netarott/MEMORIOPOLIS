@@ -1,0 +1,4 @@
+﻿scenario,dwell_minutes_tau,first_visible_response_minutes_rho_any,first_visible_prefinal_minutes_rho_progress,has_visible_prefinal_update_I_visible,internal_history_count,visible_history_count_including_final,visible_prefinal_count,longest_visible_silence_minutes,final_state,ranking
+A_silent_three_hours,180,180,,0,1,1,0,180,回答済み,評価しない
+B_checkpoint_three_hours,180,10,10,1,4,3,2,110,回答済み,評価しない
+C_frequent_updates_three_hours,180,5,5,1,7,5,4,60,回答済み,評価しない

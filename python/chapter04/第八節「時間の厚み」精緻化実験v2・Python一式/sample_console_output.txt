@@ -1,0 +1,7 @@
+=== 第八節 時間の厚み／精緻化実験 v2 ===
+A_silent_three_hours: tau=180分 / rho_any=180分 / rho_progress=なし / I_visible=0 / H_internal=1件 / H_visible_pre=0件 / 最長可視沈黙=180分
+B_checkpoint_three_hours: tau=180分 / rho_any=10分 / rho_progress=10分 / I_visible=1 / H_internal=4件 / H_visible_pre=2件 / 最長可視沈黙=110分
+C_frequent_updates_three_hours: tau=180分 / rho_any=5分 / rho_progress=5分 / I_visible=1 / H_internal=7件 / H_visible_pre=4件 / 最長可視沈黙=60分
+---
+時計時間の比較だけでは、時間の内側は記述できない。
+可視イベント数は順位や成績に使用しない。

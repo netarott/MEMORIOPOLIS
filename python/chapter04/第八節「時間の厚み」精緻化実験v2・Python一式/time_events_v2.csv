@@ -1,0 +1,16 @@
+﻿scenario,sequence,observed_at,event_type,visible_to_requester,description
+A_silent_three_hours,1,2026-08-13 09:00,request,true,問い合わせ到着
+A_silent_three_hours,2,2026-08-13 12:00,final_response,true,最終回答
+B_checkpoint_three_hours,1,2026-08-13 09:00,request,true,問い合わせ到着
+B_checkpoint_three_hours,2,2026-08-13 09:10,receipt,true,受領と確認開始を共有
+B_checkpoint_three_hours,3,2026-08-13 10:00,target_identified,false,確認対象を特定
+B_checkpoint_three_hours,4,2026-08-13 11:00,interim_response,true,中間状況を共有
+B_checkpoint_three_hours,5,2026-08-13 12:00,final_response,true,最終回答
+C_frequent_updates_three_hours,1,2026-08-13 09:00,request,true,問い合わせ到着
+C_frequent_updates_three_hours,2,2026-08-13 09:05,receipt,true,受領を共有
+C_frequent_updates_three_hours,3,2026-08-13 09:20,checking,true,確認中を共有
+C_frequent_updates_three_hours,4,2026-08-13 09:50,target_identified,false,確認対象を特定
+C_frequent_updates_three_hours,5,2026-08-13 10:10,checking,true,確認継続を共有
+C_frequent_updates_three_hours,6,2026-08-13 10:40,analysis_complete,false,内部分析を完了
+C_frequent_updates_three_hours,7,2026-08-13 11:00,interim_response,true,中間状況を共有
+C_frequent_updates_three_hours,8,2026-08-13 12:00,final_response,true,最終回答
