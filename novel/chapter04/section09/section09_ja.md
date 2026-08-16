@@ -288,27 +288,21 @@ branch_candidate: prepared
 
 画面に、短い式が現れた。
 
-$
-\delta
-=
-t_{\mathrm{external}}
--
-t_{\mathrm{internal}}
-$
+${\delta = t_{\mathrm{external}} - t_{\mathrm{internal}}}$
 
 「この ${\delta}$ は？」
 
 「二つの時計が動き始めた時刻の差です」
 
-「${t_{\mathrm{internal}}}$ は？」
+「 ${t_{\mathrm{internal}}}$ は？」
 
 「内部調査を始めた時刻です」
 
-「${t_{\mathrm{external}}}$ は、外部問い合わせを始めた時刻」
+「 ${t_{\mathrm{external}}}$ は、外部問い合わせを始めた時刻」
 
 「はい」
 
-「${\delta}$ が短い方がいい？」
+「 ${\delta}$ が短い方がいい？」
 
 「分かりません」
 
