@@ -1,0 +1,16 @@
+﻿scenario,sequence,observed_at,event_type,work_unit_key,source_id
+01_expected_order,1,09:01,work_log,WU-001,LOG-001
+01_expected_order,2,09:12,inquiry,WU-001,INQ-001
+01_expected_order,3,09:26,schedule,WU-001,SCH-001
+01_expected_order,4,10:03,review,WU-001,REV-001
+01_expected_order,5,10:11,confirmation,WU-001,CFM-001
+02_reordered,1,09:01,confirmation,WU-001,CFM-002
+02_reordered,2,09:12,review,WU-001,REV-002
+02_reordered,3,09:26,work_log,WU-001,LOG-002
+02_reordered,4,10:03,schedule,WU-001,SCH-002
+02_reordered,5,10:11,inquiry,WU-001,INQ-002
+03_mismatched_work,1,09:01,work_log,WU-001,LOG-003
+03_mismatched_work,2,09:12,inquiry,WU-001,INQ-003
+03_mismatched_work,3,09:26,schedule,WU-001,SCH-003
+03_mismatched_work,4,10:03,review,WU-999,REV-999
+03_mismatched_work,5,10:11,confirmation,WU-999,CFM-999

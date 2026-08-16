@@ -1,0 +1,4 @@
+﻿scenario,final_state,input_count,audit_count,transition_count,held_count
+01_expected_order,回復候補,5,5,3,2
+02_reordered,回復候補,5,6,3,3
+03_mismatched_work,未確定,5,5,2,3

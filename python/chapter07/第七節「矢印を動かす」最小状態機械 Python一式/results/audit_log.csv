@@ -1,0 +1,17 @@
+﻿scenario,sequence,observed_at,source_id,event_type,event_work_unit,state_before,action,state_after,reason
+01_expected_order,1,09:01,LOG-001,work_log,WU-001,未観測,遷移,候補,対象作業の日報を発見
+01_expected_order,2,09:12,INQ-001,inquiry,WU-001,候補,保持,候補,未確定へ進む証拠が不足: schedule
+01_expected_order,3,09:26,SCH-001,schedule,WU-001,候補,遷移,未確定,日報・問い合わせ・作業予定が同じ作業単位へ接続
+01_expected_order,4,10:03,REV-001,review,WU-001,未確定,保持,未確定,回復候補へ進む証拠が不足: confirmation
+01_expected_order,5,10:11,CFM-001,confirmation,WU-001,未確定,遷移,回復候補,レビューと確認記録を含む必要証拠が対象作業で一致
+02_reordered,1,09:01,CFM-002,confirmation,WU-001,未観測,保持,未観測,対象作業の日報が未到着
+02_reordered,2,09:12,REV-002,review,WU-001,未観測,保持,未観測,対象作業の日報が未到着
+02_reordered,3,09:26,LOG-002,work_log,WU-001,未観測,遷移,候補,対象作業の日報を発見
+02_reordered,4,10:03,SCH-002,schedule,WU-001,候補,保持,候補,未確定へ進む証拠が不足: inquiry
+02_reordered,5,10:11,INQ-002,inquiry,WU-001,候補,遷移,未確定,日報・問い合わせ・作業予定が同じ作業単位へ接続
+02_reordered,5,10:11,INQ-002,inquiry,WU-001,未確定,遷移,回復候補,レビューと確認記録を含む必要証拠が対象作業で一致
+03_mismatched_work,1,09:01,LOG-003,work_log,WU-001,未観測,遷移,候補,対象作業の日報を発見
+03_mismatched_work,2,09:12,INQ-003,inquiry,WU-001,候補,保持,候補,未確定へ進む証拠が不足: schedule
+03_mismatched_work,3,09:26,SCH-003,schedule,WU-001,候補,遷移,未確定,日報・問い合わせ・作業予定が同じ作業単位へ接続
+03_mismatched_work,4,10:03,REV-999,review,WU-999,未確定,保持,未確定,記録は保存したが、対象作業が一致しない
+03_mismatched_work,5,10:11,CFM-999,confirmation,WU-999,未確定,保持,未確定,記録は保存したが、対象作業が一致しない

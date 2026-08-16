@@ -1,0 +1,6 @@
+=== 第七節 最小状態機械 ===
+01_expected_order: 最終状態=回復候補 / 入力=5 / 遷移=3 / 保持=2
+02_reordered: 最終状態=回復候補 / 入力=5 / 遷移=3 / 保持=3
+03_mismatched_work: 最終状態=未確定 / 入力=5 / 遷移=2 / 保持=3
+監査ログ: /mnt/data/section7_model_tmp/results/audit_log.csv
+サマリー: /mnt/data/section7_model_tmp/results/summary.csv
