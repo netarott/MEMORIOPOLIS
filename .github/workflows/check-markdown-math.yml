@@ -1,35 +1,35 @@
 name: Check Markdown Math Style
 
-o*:
+on:
   push:
     paths:
-      - "nove*/**/*.md"
-      - "scripts/check_m*rkdown_math.py"
-      - ".github/w*rkflows/check-markdown-math.yml"
+      - "novel/**/*.md"
+      - "scripts/check_markdown_math.py"
+      - ".github/workflows/check-markdown-math.yml"
 
-* pull_request:
+  pull_request:
     paths:
-      - *novel/**/*.md"
-      - "scripts/ch*ck_markdown_math.py"
-      - ".git*ub/workflows/check-markdown-math.y*l"
+      - "novel/**/*.md"
+      - "scripts/check_markdown_math.py"
+      - ".github/workflows/check-markdown-math.yml"
 
   workflow_dispatch:
 
-permissi*ns:
+permissions:
   contents: read
 
 jobs:
-  chec*-markdown-math:
-    runs-on: ubunt*-latest
+  check-markdown-math:
+    runs-on: ubuntu-latest
 
     steps:
-      - name: *heck out repository
-        uses: *ctions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-      - name: *et up Python
-        uses: actions*setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-    *     python-version: "3.12"
+          python-version: "3.12"
 
-     *- name: Check Markdown math style
-*       run: python scripts/check_m*rkdown_math.py
+      - name: Check Markdown math style
+        run: python scripts/check_markdown_math.py
