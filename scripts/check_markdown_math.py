@@ -2,12 +2,8 @@ from pathlib import Path
 import re
 import sys
 
-
-TARGETS = [
-    Path("novel"),
-]
-
-errors = []
+TARGETS = [Path("novel")]
+errors: list[str] = []
 
 
 def report(path: Path, line_no: int, message: str, line: str) -> None:
@@ -20,7 +16,6 @@ def report(path: Path, line_no: int, message: str, line: str) -> None:
 def check_file(path: Path) -> None:
     text = path.read_text(encoding="utf-8")
     lines = text.splitlines()
-
     in_code_block = False
 
     for line_no, line in enumerate(lines, start=1):
@@ -33,51 +28,40 @@ def check_file(path: Path) -> None:
         if in_code_block:
             continue
 
-        # note専用のインライン数式を禁止
+        # Reject note-specific inline math such as $${\delta}$$.
         if re.search(r"\$\$\{.+?\}\$\$", line):
             report(
                 path,
                 line_no,
-                "note専用の $${...}$$ が含まれています",
+                "note-specific inline math $${...}$$ is not allowed",
                 line,
             )
 
-        # LaTeXコマンドの二重バックスラッシュを検出
-        if re.search(
-            r"\\\\(?:delta|mathrm|tau|rho|sigma|alpha|beta|gamma)",
-            line,
-        ):
-            report(
-                path,
-                line_no,
-                "LaTeXコマンドのバックスラッシュが二重です",
-                line,
-            )
-
-        # ブロック数式
+        # Block math must be written on one line as $$...$$.
         if "$$" in line:
             if not re.fullmatch(r"\s*\$\$.+\$\$\s*", line):
                 report(
                     path,
                     line_no,
-                    "ブロック数式は $$...$$ の一行形式にしてください",
+                    "block math must use the one-line form $$...$$",
                     line,
                 )
             continue
 
-        # インライン数式を抽出
-        for match in re.finditer(r"(?<!\$)\$(?!\$)(.+?)(?<!\$)\$(?!\$)", line):
+        # Inspect inline math delimited by single dollar signs.
+        for match in re.finditer(
+            r"(?<!\$)\$(?!\$)(.+?)(?<!\$)\$(?!\$)", line
+        ):
             start, end = match.span()
+            before = line[start - 1] if start > 0 else ""
+            after = line[end] if end < len(line) else ""
+            expression = match.group(1)
 
-            before[(path: Path, line_no: int, message: str, line: str) -> None:
-.append(
-"{path}:{line_no}: {message}\n"
-"    {line.rstrip()後に半角スペースを要求
             if start > 0 and before != " ":
                 report(
                     path,
                     line_no,
-                    "インライン数式の直前に半角スペースがありません",
+                    "add an ASCII space before inline math",
                     line,
                 )
 
@@ -85,17 +69,15 @@ def check_file(path: Path) -> None:
                 report(
                     path,
                     line_no,
-                    "インライン数式の直後に半角スペースがありません",
+                    "add an ASCII space after inline math",
                     line,
                 )
-
-            expression = match.group(1)
 
             if expression.startswith(" ") or expression.endswith(" "):
                 report(
                     path,
                     line_no,
-                    "数式の $ の内側には空白を入れないでください",
+                    "do not add spaces inside math delimiters",
                     line,
                 )
 
@@ -103,37 +85,45 @@ def check_file(path: Path) -> None:
                 report(
                     path,
                     line_no,
-                    "数式内に二重バックスラッシュがあります",
+                    "a LaTeX command contains a doubled backslash",
                     line,
                 )
 
+    if in_code_block:
+        report(
+            path,
+            len(lines),
+            "an opening fenced code block is not closed",
+            lines[-1] if lines else "",
+        )
+
 
 def main() -> int:
-    markdown_files = []
+    markdown_files: list[Path] = []
 
     for target in TARGETS:
         if target.exists():
             markdown_files.extend(target.rglob("*.md"))
 
-    if not markdow*_files:
-        print("No Markdown*files found.")
+    if not markdown_files:
+        print("No Markdown files found.")
         return 0
 
- *  for path in sorted(markdown_file*):
+    for path in sorted(markdown_files):
         check_file(path)
 
-    i* errors:
-        print("Markdown m*th style check failed.\n")
-       *print("\n\n".join(errors))
-       *print(f"\nTotal errors: {len(error*)}")
+    if errors:
+        print("Markdown math style check failed.\n")
+        print("\n\n".join(errors))
+        print(f"\nTotal errors: {len(errors)}")
         return 1
 
     print(
-*       f"Markdown math style check*passed: "
-        f"{len(markdown_*iles)} files checked."
+        "Markdown math style check passed: "
+        f"{len(markdown_files)} files checked."
     )
-    r*turn 0
+    return 0
 
 
-if __name__ == "__main__"*
+if __name__ == "__main__":
     sys.exit(main())
