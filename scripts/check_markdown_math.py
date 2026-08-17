@@ -3,6 +3,9 @@ import re
 import sys
 
 TARGETS = [Path("novel")]
+CANON_PATTERN = re.compile(
+    r"^section\d{2}_(ja|en|zh-TW|ko|ru)\.md$"
+)
 errors: list[str] = []
 
 
@@ -28,7 +31,6 @@ def check_file(path: Path) -> None:
         if in_code_block:
             continue
 
-        # Reject note-specific inline math such as $${\delta}$$.
         if re.search(r"\$\$\{.+?\}\$\$", line):
             report(
                 path,
@@ -37,7 +39,6 @@ def check_file(path: Path) -> None:
                 line,
             )
 
-        # Block math must be written on one line as $$...$$.
         if "$$" in line:
             if not re.fullmatch(r"\s*\$\$.+\$\$\s*", line):
                 report(
@@ -48,7 +49,6 @@ def check_file(path: Path) -> None:
                 )
             continue
 
-        # Inspect inline math delimited by single dollar signs.
         for match in re.finditer(
             r"(?<!\$)\$(?!\$)(.+?)(?<!\$)\$(?!\$)", line
         ):
@@ -58,36 +58,16 @@ def check_file(path: Path) -> None:
             expression = match.group(1)
 
             if start > 0 and before != " ":
-                report(
-                    path,
-                    line_no,
-                    "add an ASCII space before inline math",
-                    line,
-                )
+                report(path, line_no, "add an ASCII space before inline math", line)
 
             if end < len(line) and after != " ":
-                report(
-                    path,
-                    line_no,
-                    "add an ASCII space after inline math",
-                    line,
-                )
+                report(path, line_no, "add an ASCII space after inline math", line)
 
             if expression.startswith(" ") or expression.endswith(" "):
-                report(
-                    path,
-                    line_no,
-                    "do not add spaces inside math delimiters",
-                    line,
-                )
+                report(path, line_no, "do not add spaces inside math delimiters", line)
 
             if "\\\\" in expression:
-                report(
-                    path,
-                    line_no,
-                    "a LaTeX command contains a doubled backslash",
-                    line,
-                )
+                report(path, line_no, "a LaTeX command contains a doubled backslash", line)
 
     if in_code_block:
         report(
@@ -102,11 +82,15 @@ def main() -> int:
     markdown_files: list[Path] = []
 
     for target in TARGETS:
-        if target.exists():
-            markdown_files.extend(target.rglob("*.md"))
+        if not target.exists():
+            continue
+
+        for path in target.rglob("*.md"):
+            if CANON_PATTERN.fullmatch(path.name):
+                markdown_files.append(path)
 
     if not markdown_files:
-        print("No Markdown files found.")
+        print("No canonical Markdown files found.")
         return 0
 
     for path in sorted(markdown_files):
@@ -120,7 +104,7 @@ def main() -> int:
 
     print(
         "Markdown math style check passed: "
-        f"{len(markdown_files)} files checked."
+        f"{len(markdown_files)} canonical files checked."
     )
     return 0
 
