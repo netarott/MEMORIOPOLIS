@@ -1,0 +1,34 @@
+name: Check Five-Language Localization Bundle
+
+on:
+  push:
+    paths:
+      - "novel/**/*.md"
+      - "novel/**/LOCALIZATION_READY"
+      - "scripts/check_localization_bundle.py"
+      - ".github/workflows/check-localization-bundle.yml"
+  pull_request:
+    paths:
+      - "novel/**/*.md"
+      - "novel/**/LOCALIZATION_READY"
+      - "scripts/check_localization_bundle.py"
+      - ".github/workflows/check-localization-bundle.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-localization-bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check five-language localization bundle
+        run: python scripts/check_localization_bundle.py
