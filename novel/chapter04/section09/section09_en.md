@@ -129,7 +129,7 @@ But time was no longer closed into a single path.
 
 $$\delta = t_{\mathrm{external}} - t_{\mathrm{internal}}$$
 
-“What is this $\delta$?”
+“What does $\delta$ mean?”
 
 “The difference between the times at which the two clocks begin.”
 
