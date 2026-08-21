@@ -1,0 +1,18 @@
+:root { color-scheme: dark; --paper:#e8ebed; --muted:#aab2b9; --cyan:#83d8df; }
+* { box-sizing:border-box; }
+html { background:#05090d; scroll-behavior:smooth; }
+body { margin:0; color:var(--paper); font-family:system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif; background:#05090d; }
+.hud { position:fixed; z-index:20; top:0; left:0; right:0; display:flex; justify-content:space-between; align-items:center; gap:1rem; padding:1rem 4vw; color:#cbd1d5; font-size:.78rem; letter-spacing:.08em; background:linear-gradient(#05090ddd,transparent); }
+.hud button { border:1px solid #8bcbd555; border-radius:999px; padding:.6rem .9rem; color:#dbe6e8; background:#061017a8; cursor:pointer; }
+.scene { min-height:115vh; position:relative; display:flex; align-items:center; background-size:cover; background-position:center; isolation:isolate; }
+.scene::before { content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,rgba(3,7,11,.74) 0%,rgba(3,7,11,.44) 43%,rgba(3,7,11,.06) 76%),linear-gradient(0deg,rgba(3,7,11,.45),transparent 45%); }
+.scene-01 { background-image:url("images/section09-scene01-background.png"); }
+.scene-02 { background-image:url("images/section09-scene02-background.png"); }
+.copy { width:min(42rem,84vw); margin-left:8vw; padding:10vh 0; text-shadow:0 2px 18px #000; }
+.eyebrow { color:var(--cyan); font-size:.72rem; letter-spacing:.18em; }
+h1,h2 { font-weight:500; letter-spacing:.05em; line-height:1.35; margin:.5rem 0 2rem; }
+h1 { font-size:clamp(2rem,5vw,4.8rem); }
+h2 { font-size:clamp(1.8rem,4vw,3.8rem); }
+.copy p:not(.eyebrow,.hint) { max-width:34rem; font-family:"Yu Mincho","Hiragino Mincho ProN",serif; font-size:clamp(1rem,1.65vw,1.3rem); line-height:2.15; color:#e1e4e5; }
+.hint { margin-top:12vh; color:var(--muted); font-size:.78rem; letter-spacing:.15em; }
+@media (max-width:700px) { .scene { min-height:105vh; background-position:62% center; } .copy { margin-left:7vw; width:86vw; } .scene::before { background:linear-gradient(90deg,rgba(3,7,11,.78),rgba(3,7,11,.25)); } }
