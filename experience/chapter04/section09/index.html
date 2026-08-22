@@ -4,8 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>記憶都市 | 第四章第九節</title>
-  <link rel="stylesheet" href="styles.css">
-
+  <link rel="stylesheet" href="styles.css?v=20260822-3">
   <script>
     window.MathJax = {
       tex: {
@@ -13,12 +12,11 @@
         displayMath: [['$$', '$$']],
         processEscapes: true
       },
-      startup: {
-        typeset: false
-      }
+      startup: { typeset: false }
     };
   </script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script defer src="script.js?v=20260822-3"></script>
 </head>
 <body>
   <header class="hud">
@@ -47,6 +45,12 @@
 
     <section id="story" class="story scene-02" aria-label="第四章第九節 本文">
       <article id="section-content" class="story-content" aria-live="polite"></article>
+      <div id="story-end" class="deep-link-panel" aria-label="制作過程への入口">
+        <p class="deep-link-kicker">BELOW THE STORY</p>
+        <h2>この節が生まれた往還を読む</h2>
+        <p>物語の地上層から、制作過程と元ネタが流れる地下層へ。</p>
+        <a id="production-notes-link" class="deep-link-button" href="notes.html">制作ノートをひらく</a>
+      </div>
       <p id="build-state" class="build-state" hidden>LOCALIZATION_READY</p>
     </section>
   </main>
@@ -54,7 +58,5 @@
   <audio id="bgm" preload="metadata" loop>
     <source src="audio/two-clocks-before-dawn-prototype01.wav" type="audio/wav">
   </audio>
-
-  <script src="script.js"></script>
 </body>
 </html>
