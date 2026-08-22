@@ -5,32 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>記憶都市 | 第四章第九節</title>
   <link rel="stylesheet" href="styles.css">
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true
+      },
+      startup: {
+        typeset: false
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 </head>
 <body>
   <header class="hud">
-    <span>記憶都市（メモリオポリス）</span>
-    <button id="sound" type="button" aria-pressed="false">BGMをひらく</button>
+    <a class="brand" href="#top">記憶都市（メモリオポリス）</a>
+    <div class="hud-actions">
+      <nav class="language-switcher" aria-label="表示言語">
+        <button type="button" data-language="ja" aria-pressed="true">日本語</button>
+        <button type="button" data-language="en" aria-pressed="false">English</button>
+        <button type="button" data-language="zh-TW" aria-pressed="false">繁體中文</button>
+        <button type="button" data-language="ko" aria-pressed="false">한국어</button>
+        <button type="button" data-language="ru" aria-pressed="false">Русский</button>
+      </nav>
+      <button id="sound" class="sound-button" type="button" aria-pressed="false">BGMをひらく</button>
+    </div>
   </header>
 
-  <main>
-    <section class="scene scene-01" aria-label="第一景 まだ送られていない">
-      <div class="copy">
+  <main id="top">
+    <section class="hero scene-01" aria-labelledby="section-title">
+      <div class="hero-copy">
         <p class="eyebrow">CHAPTER 04 / SECTION 09</p>
-        <h1>まだ送られていない矢印</h1>
-        <p>問い合わせは、まだ送られていない。</p>
-        <p>けれど内部では、調査も時間も、すでに動いている。</p>
-        <p class="hint">下へ進む</p>
+        <h1 id="section-title">読み込み中...</h1>
+        <p id="load-status" class="status" role="status" aria-live="polite">五言語正本から生成されたデータを読み込んでいます。</p>
+        <a class="continue-link" href="#story">本文をひらく</a>
       </div>
     </section>
 
-    <section class="scene scene-02" aria-label="第二景 別の時計が始まる">
-      <div class="copy">
-        <p class="eyebrow">SCENE 02</p>
-        <h2>別の時計が始まる。</h2>
-        <p>送信しても、内部の時計は止まらない。</p>
-        <p>外側に、もうひとつの時間が加わる。</p>
-        <p>そのあいだにあった一拍が、誰のものだったのかは、決めない。</p>
-      </div>
+    <section id="story" class="story scene-02" aria-label="第四章第九節 本文">
+      <article id="section-content" class="story-content" aria-live="polite"></article>
+      <p id="build-state" class="build-state" hidden>LOCALIZATION_READY</p>
     </section>
   </main>
 
