@@ -1,0 +1,81 @@
+name: Deploy Memoriopolis to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/deploy-pages.yml"
+      - "experience/**"
+      - "novel/chapter04/section09/**"
+      - "scripts/build_section09.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate canonical Section 09 sources
+        run: python scripts/build_section09.py --check
+
+      - name: Build Section 09 Pages data
+        run: python scripts/build_section09.py
+
+      - name: Assemble Pages artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf _site
+          mkdir -p _site/chapter04/section09
+
+          cp experience/index.html _site/index.html
+          cp -R experience/chapter04/section09/. _site/chapter04/section09/
+
+          touch _site/.nojekyll
+
+          test -f _site/index.html
+          test -f _site/chapter04/section09/index.html
+          test -f _site/chapter04/section09/notes.html
+          test -f _site/chapter04/section09/observation.html
+          test -f _site/chapter04/section09/data/section09.json
+          test -f _site/chapter04/section09/images/section09-scene01-background.png
+          test -f _site/chapter04/section09/images/section09-scene02-background.png
+          test -f _site/chapter04/section09/audio/two-clocks-before-dawn-prototype01.wav
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
