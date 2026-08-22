@@ -45,13 +45,16 @@ jobs:
           set -euo pipefail
           rm -rf _site
           mkdir -p _site/chapter04/section09
+          mkdir -p _site/assets
 
           cp experience/index.html _site/index.html
           cp -R experience/chapter04/section09/. _site/chapter04/section09/
+          cp -R experience/assets/. _site/assets/
 
           touch _site/.nojekyll
 
           test -f _site/index.html
+          test -f _site/assets/images/memoriopolis-central-station-ogp.png
           test -f _site/chapter04/section09/index.html
           test -f _site/chapter04/section09/notes.html
           test -f _site/chapter04/section09/observation.html
