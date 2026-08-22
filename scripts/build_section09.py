@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Build Chapter 04 Section 09 Pages data from canonical Markdown files.
+"""Build Chapter 04 Section 09 Pages data from canonical source files.
 
-Canonical sources:
+Required canonical sources:
 - five localized section09_*.md files
 - section09-production-notes.md
-- LOCALIZATION_READY status marker
+- python/section09_time_model.py
 
 Output:
 - experience/chapter04/section09/data/section09.json
@@ -30,6 +30,8 @@ LANGUAGE_FILES: Final[dict[str, str]] = {
     "ru": "section09_ru.md",
 }
 PRODUCTION_NOTES_FILE: Final[str] = "section09-production-notes.md"
+PYTHON_MODEL_FILE: Final[str] = "python/section09_time_model.py"
+PYTHON_MODEL_TITLE: Final[str] = "Section 09 Time Model"
 REQUIRED_TOP_LEVEL_KEYS: Final[tuple[str, ...]] = (
     "metadata", "titles", "content", "documents", "links"
 )
@@ -55,15 +57,18 @@ def find_repo_root(start: Path) -> Path:
     )
 
 
-def extract_title_and_body(path: Path) -> tuple[str, str]:
-    """Use the final heading in the opening heading block as the document title."""
+def read_utf8(path: Path) -> str:
     try:
-        text = path.read_text(encoding="utf-8-sig")
+        return path.read_text(encoding="utf-8-sig")
     except UnicodeDecodeError as exc:
         raise BuildError(f"UTF-8 decode failed: {path}") from exc
     except OSError as exc:
         raise BuildError(f"cannot read file: {path}") from exc
 
+
+def extract_title_and_body(path: Path) -> tuple[str, str]:
+    """Use the final heading in the opening heading block as the document title."""
+    text = read_utf8(path)
     lines = text.splitlines(keepends=True)
     last_heading_index: int | None = None
     last_heading_text: str | None = None
@@ -96,7 +101,11 @@ def extract_title_and_body(path: Path) -> tuple[str, str]:
 
 
 def require_files(source_dir: Path) -> None:
-    required_names = [*LANGUAGE_FILES.values(), PRODUCTION_NOTES_FILE]
+    required_names = [
+        *LANGUAGE_FILES.values(),
+        PRODUCTION_NOTES_FILE,
+        PYTHON_MODEL_FILE,
+    ]
     missing = [source_dir / name for name in required_names if not (source_dir / name).is_file()]
     if missing:
         formatted = "\n".join(f"  - {path}" for path in missing)
@@ -114,6 +123,9 @@ def build_document(source_dir: Path) -> dict[str, object]:
         content[language] = body
 
     notes_title, notes_body = extract_title_and_body(source_dir / PRODUCTION_NOTES_FILE)
+    python_content = read_utf8(source_dir / PYTHON_MODEL_FILE)
+    if not python_content.strip():
+        raise BuildError(f"Python model is empty: {source_dir / PYTHON_MODEL_FILE}")
 
     document: dict[str, object] = {
         "metadata": {
@@ -129,12 +141,18 @@ def build_document(source_dir: Path) -> dict[str, object]:
                 "source": PRODUCTION_NOTES_FILE,
                 "title": notes_title,
                 "content": notes_body,
-            }
+            },
+            "python_model": {
+                "source": PYTHON_MODEL_FILE,
+                "language": "python",
+                "title": PYTHON_MODEL_TITLE,
+                "content": python_content,
+            },
         },
         "links": {
             "production_notes": "notes.html",
             "localization_review": "localization-review.md",
-            "python_model": "python/section09_time_model.py",
+            "python_model": "observation.html",
         },
     }
     validate_document(document)
@@ -161,6 +179,7 @@ def validate_document(document: dict[str, object]) -> None:
 
     if not isinstance(documents, dict):
         raise BuildError("documents must be a JSON object")
+
     notes = documents.get("production_notes")
     if not isinstance(notes, dict):
         raise BuildError("documents.production_notes is missing")
@@ -169,6 +188,17 @@ def validate_document(document: dict[str, object]) -> None:
             raise BuildError(f"documents.production_notes.{key} must be text")
     if not notes["title"].strip():
         raise BuildError("documents.production_notes.title is empty")
+
+    python_model = documents.get("python_model")
+    if not isinstance(python_model, dict):
+        raise BuildError("documents.python_model is missing")
+    for key in ("source", "language", "title", "content"):
+        if not isinstance(python_model.get(key), str):
+            raise BuildError(f"documents.python_model.{key} must be text")
+    if python_model["language"] != "python":
+        raise BuildError("documents.python_model.language must be python")
+    if not python_model["title"].strip() or not python_model["content"].strip():
+        raise BuildError("Python model title and content must not be empty")
 
 
 def write_json_atomic(document: dict[str, object], output_path: Path) -> None:
@@ -215,7 +245,9 @@ def main() -> int:
                     f"body_chars={len(document['content'][language])}"
                 )
             notes = document["documents"]["production_notes"]
+            model = document["documents"]["python_model"]
             print(f"  production_notes: title={notes['title']!r}, body_chars={len(notes['content'])}")
+            print(f"  python_model: source={model['source']!r}, code_chars={len(model['content'])}")
             return 0
 
         write_json_atomic(document, output_path)

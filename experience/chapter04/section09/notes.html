@@ -4,14 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>制作ノート | 記憶都市 第四章第九節</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260822-5">
   <script>
-    window.MathJax = {
-      tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']], processEscapes: true },
-      startup: { typeset: false }
-    };
+    window.MathJax = { tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']], processEscapes: true }, startup: { typeset: false } };
   </script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+          onload="window.dispatchEvent(new Event('mathjax-ready'))"></script>
+  <script defer src="notes.js?v=20260822-5"></script>
 </head>
 <body class="notes-page">
   <header class="hud">
@@ -21,7 +20,6 @@
       <button id="sound" class="sound-button" type="button" aria-pressed="false">BGMをひらく</button>
     </div>
   </header>
-
   <main class="notes-shell">
     <header class="notes-hero">
       <p class="eyebrow">PRODUCTION NOTES / SECTION 09</p>
@@ -29,18 +27,12 @@
       <p id="notes-status" class="status" role="status" aria-live="polite">制作ノート正本から生成されたデータを読み込んでいます。</p>
       <p class="notes-intro">日本語・English・臺灣繁體中文・한국어・Русскийを往還しながら作られた記録。</p>
     </header>
-
     <article id="notes-content" class="story-content notes-content" aria-live="polite"></article>
-
     <footer class="notes-footer">
       <p>地上層の物語へ戻る。</p>
       <a id="story-return-bottom" class="deep-link-button" href="index.html#story-end">物語へ戻る</a>
     </footer>
   </main>
-
-  <audio id="bgm" preload="metadata" loop>
-    <source src="audio/two-clocks-before-dawn-prototype01.wav" type="audio/wav">
-  </audio>
-  <script src="notes.js"></script>
+  <audio id="bgm" preload="metadata" loop><source src="audio/two-clocks-before-dawn-prototype01.wav" type="audio/wav"></audio>
 </body>
 </html>

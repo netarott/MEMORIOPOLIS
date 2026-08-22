@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Python観測窓 | 記憶都市 第四章第九節</title>
+  <link rel="stylesheet" href="styles.css?v=20260822-5">
+  <script>
+    window.MathJax = { tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']], processEscapes: true }, startup: { typeset: false } };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+          onload="window.dispatchEvent(new Event('mathjax-ready'))"></script>
+  <script defer src="observation.js?v=20260822-5"></script>
+</head>
+<body class="observation-page">
+  <header class="hud">
+    <a class="brand" href="index.html">記憶都市（メモリオポリス）</a>
+    <div class="hud-actions">
+      <a id="story-return" class="return-button" href="index.html#delta">物語へ戻る</a>
+      <a id="notes-cross-link" class="return-button" href="notes.html">制作ノートへ</a>
+      <button id="sound" class="sound-button" type="button" aria-pressed="false">BGMをひらく</button>
+    </div>
+  </header>
+  <main class="observation-shell">
+    <header class="observation-hero">
+      <p class="eyebrow">PYTHON OBSERVATION WINDOW / SECTION 09</p>
+      <h1>二本の時計を、状態として観測する</h1>
+      <p class="observation-intro">この窓は、人物や経路を順位づけるためのものではない。物語で生じた状態を、Pythonがどのように記述するかを見る。</p>
+      <div id="observation-math" class="observation-math">$$\delta = t_{\mathrm{external}} - t_{\mathrm{internal}}$$</div>
+      <p>δは良し悪しを表すスコアではない。内部の時計と外部の時計が始まった時刻の差を記述する。</p>
+    </header>
+    <section class="observation-labels" aria-label="状態模型の観測語">
+      <div><strong>send_now</strong><span>すぐ問い合わせる</span></div>
+      <div><strong>investigate</strong><span>内部調査を続けてから問い合わせる</span></div>
+      <div><strong>branch_candidate</strong><span>分岐候補として保持し、内部調査と並行する</span></div>
+    </section>
+    <section class="model-window" aria-labelledby="model-title">
+      <p class="deep-link-kicker">CANONICAL PYTHON MODEL</p>
+      <h2 id="model-title">読み込み中...</h2>
+      <p id="model-status" class="status" role="status" aria-live="polite">Python正本から生成されたデータを読み込んでいます。</p>
+      <p id="model-source" class="model-source"></p>
+      <pre class="python-code"><code id="python-content"></code></pre>
+    </section>
+    <footer class="notes-footer"><p>状態模型から、物語のδへ戻る。</p><a id="story-return-bottom" class="deep-link-button" href="index.html#delta">物語へ戻る</a></footer>
+  </main>
+  <audio id="bgm" preload="metadata" loop><source src="audio/two-clocks-before-dawn-prototype01.wav" type="audio/wav"></audio>
+</body>
+</html>
