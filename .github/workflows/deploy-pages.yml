@@ -50,10 +50,12 @@ jobs:
           cp experience/index.html _site/index.html
           cp -R experience/chapter04/section09/. _site/chapter04/section09/
           cp -R experience/assets/. _site/assets/
+          cp experience/privacy.html _site/privacy.html
 
           touch _site/.nojekyll
 
           test -f _site/index.html
+          test -f _site/privacy.html
           test -f _site/assets/images/memoriopolis-central-station-ogp.png
           test -f _site/chapter04/section09/index.html
           test -f _site/chapter04/section09/notes.html
