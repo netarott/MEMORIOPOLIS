@@ -9,6 +9,8 @@ on:
       - "experience/**"
       - "novel/chapter04/section09/**"
       - "scripts/build_section09.py"
+      - "novel/chapter04/section10/**"
+      - "scripts/build_section10.py"
   workflow_dispatch:
 
 permissions:
@@ -33,11 +35,20 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install Python dependencies
+        run: python -m pip install markdown
+
       - name: Validate canonical Section 09 sources
         run: python scripts/build_section09.py --check
 
       - name: Build Section 09 Pages data
         run: python scripts/build_section09.py
+
+      - name: Validate canonical Section  sources
+        run: python scripts/build_section10.py --check
+
+      - name: Build Section 10 Pages data
+        run: python scripts/build_section10.py
 
       - name: Assemble Pages artifact
         shell: bash
@@ -45,10 +56,12 @@ jobs:
           set -euo pipefail
           rm -rf _site
           mkdir -p _site/chapter04/section09
+          mkdir -p _site/chapter04/section10
           mkdir -p _site/assets
 
           cp experience/index.html _site/index.html
           cp -R experience/chapter04/section09/. _site/chapter04/section09/
+          cp -R experience/chapter04/section10/. _site/chapter04/section10/
           cp -R experience/assets/. _site/assets/
           cp experience/privacy.html _site/privacy.html
 
@@ -64,6 +77,12 @@ jobs:
           test -f _site/chapter04/section09/images/section09-scene01-background.png
           test -f _site/chapter04/section09/images/section09-scene02-background.png
           test -f _site/chapter04/section09/audio/two-clocks-before-dawn-prototype01.wav
+          test -f _site/chapter04/section10/index.html
+          test -f _site/chapter04/section10/notes.html
+          test -f _site/chapter04/section10/trailer.html
+          test -f _site/chapter04/section10/script.js
+          test -f _site/chapter04/section10/styles.css
+          test -s _site/chapter04/section10/media/section10_trailer_final.mp4
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
