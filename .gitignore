@@ -1,5 +1,7 @@
 # Python cache files
 __pycache__/
 *.py[cod]
+# Section 10 trailer intermediate outputs
 novel/chapter04/section10/trailer/output/preview_frames/
 novel/chapter04/section10/trailer/output/*_prototype*.mp4
+novel/chapter04/section10/trailer/output/*_prototype*.wav
