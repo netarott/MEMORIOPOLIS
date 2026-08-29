@@ -1,3 +1,5 @@
 # Python cache files
 __pycache__/
 *.py[cod]
+novel/chapter04/section10/trailer/output/preview_frames/
+novel/chapter04/section10/trailer/output/*_prototype*.mp4
