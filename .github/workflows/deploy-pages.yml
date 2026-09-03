@@ -57,11 +57,13 @@ jobs:
           rm -rf _site
           mkdir -p _site/chapter04/section09
           mkdir -p _site/chapter04/section10
+          mkdir -p _site/chapter04/section11
           mkdir -p _site/assets
 
           cp experience/index.html _site/index.html
           cp -R experience/chapter04/section09/. _site/chapter04/section09/
           cp -R experience/chapter04/section10/. _site/chapter04/section10/
+          cp -R experience/chapter04/section11/. _site/chapter04/section11/
           cp -R experience/assets/. _site/assets/
           cp experience/privacy.html _site/privacy.html
 
@@ -83,6 +85,12 @@ jobs:
           test -f _site/chapter04/section10/script.js
           test -f _site/chapter04/section10/styles.css
           test -s _site/chapter04/section10/media/section10_trailer_final.mp4
+          test -f _site/chapter04/section11/index.html
+          test -f _site/chapter04/section11/story.html
+          test -f _site/chapter04/section11/trailer.html
+          test -f _site/chapter04/section11/act5.html
+          test -f _site/chapter04/section11/return04.html
+          test -f _site/chapter04/section11/trailer/output/section11_trailer_ja_final.mp4
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
