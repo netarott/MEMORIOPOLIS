@@ -1,0 +1,23 @@
+
+.trailer-header { padding-bottom: 2.2rem; }
+.trailer-main { width: min(72rem, 90vw); margin-inline: auto; padding: 3rem 0 6rem; }
+.trailer-stage { display: grid; grid-template-columns: minmax(17rem, .9fr) minmax(18rem, 27rem); gap: clamp(2rem, 6vw, 6rem); align-items: center; justify-content: center; }
+.trailer-copy { max-width: 34rem; }
+.trailer-eyebrow { color: var(--cyan); letter-spacing: .12em; }
+.trailer-copy h2 { margin: .7rem 0 1.3rem; font-family: "BIZ UDPMincho", "BIZ UDMincho", "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(1.75rem, 4vw, 3.2rem); font-weight: 500; line-height: 1.55; }
+.trailer-copy > p:last-child { color: var(--muted); line-height: 1.9; }
+.video-shell { position: relative; padding: .55rem; border: 1px solid var(--line); background: rgba(5, 17, 24, .75); box-shadow: 0 1.5rem 4rem var(--shadow); }
+.video-shell::before { content: ""; position: absolute; inset: -.7rem; z-index: -1; background: radial-gradient(circle at 50% 40%, rgba(159,232,238,.14), transparent 65%); }
+.trailer-video { display: block; width: 100%; aspect-ratio: 9 / 16; max-height: 76vh; object-fit: contain; background: #000; }
+.transcript { width: min(42rem, 100%); margin: 3rem auto 0; border: 1px solid var(--line); border-radius: .8rem; background: var(--panel); }
+.transcript summary { padding: 1rem 1.2rem; color: #dff9fa; cursor: pointer; }
+.transcript__body { padding: 0 1.2rem 1.4rem; }
+.transcript__body p { font-family: "BIZ UDPMincho", "BIZ UDMincho", "Yu Mincho", serif; line-height: 1.9; }
+.trailer-navigation { margin-top: 3.5rem; }
+@media (max-width: 760px) {
+  .trailer-main { width: min(92vw, 72rem); padding-top: 2rem; }
+  .trailer-stage { grid-template-columns: 1fr; }
+  .trailer-copy { margin-inline: auto; }
+  .video-shell { width: min(100%, 25rem); margin-inline: auto; }
+  .trailer-video { max-height: none; }
+}

@@ -161,10 +161,16 @@
       </div>
     </section>
 
-    <nav class="section-navigation" aria-label="第十一節の関連ページ">
-  <a class="primary-link" id="open-trailer" href="trailer.html">20秒の予告編を見る</a>
-  <a href="../../">中央駅へ戻る</a>
-</nav>
+    <nav
+      class="section-navigation"
+      aria-label="第十一節の関連ページ"
+    >
+    <a
+      class="primary-link"
+      id="  ../../
+      中央駅へ戻る
+    </a>
+    </nav>
   </main>
 
   <footer class="site-footer">
