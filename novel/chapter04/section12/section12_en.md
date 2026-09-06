@@ -2,7 +2,7 @@
 
 ###### Chapter Four: “The Translator”
 
-####### Section Twelve: “A Reply Without an Addressee” [English Working Draft]
+####### Section Twelve: “A Reply Without an Addressee” 
 
 The two notifications were still side by side on the same screen.
 
