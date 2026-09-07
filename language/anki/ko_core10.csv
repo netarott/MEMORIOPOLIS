@@ -1,0 +1,11 @@
+﻿ID,Korean,Romanization,Japanese,PartOfSpeech,ExampleKorean,ExampleRomanization,ExampleJapanese,Source,Tags
+C0001,기록,girok,記録,名詞,도시의 기록을 확인했다.,dosiui girogeul hwaginhaetda.,都市の記録を確認した。,chapter04 section12,memoriopolis::ko::core10
+C0002,기억,gieok,記憶,名詞,나는 그 이름을 기억했다.,naneun geu ireumeul gieokhaetda.,私はその名前を記憶していた。,MEMORIOPOLIS core,memoriopolis::ko::core10
+C0003,도시,dosi,都市,名詞,도시의 정오를 알리는 종소리가 울렸다.,dosiui jeongoreul allineun jongsoriga ullyeotda.,都市の正午を知らせる鐘の音が鳴った。,chapter04 section12,memoriopolis::ko::core10
+C0004,알림,allim,通知,名詞,두 통의 알림이 도착했다.,du tongui allimi dochakhaetda.,二通の通知が届いた。,chapter04 section12,memoriopolis::ko::core10
+C0005,회신,hoesin,回信／返信,名詞,회신 버튼이 나타났다.,hoesin beoteuni natanatda.,回信ボタンが現れた。,chapter04 section12,memoriopolis::ko::core10
+C0006,수신인,susinin,受信人／宛先,名詞,그 아래에 회신 대상이 표시되었다.,geu araee hoesin daesangi pyosidoeeotda.,その下に回信の対象が表示された。,chapter04 section12,memoriopolis::ko::core10
+C0007,서명,seomyeong,署名,名詞,서명과 경로는 모두 확인할 수 있었다.,seomyeonggwa gyeongroneun modu hwaginhal su isseotda.,署名と経路はすべて確認できた。,chapter04 section12,memoriopolis::ko::core10
+C0008,검증,geomjeung,検証,名詞,외부 검증이 시작되었다.,oebu geomjeungi sijakdoeeotda.,外部検証が始まった。,chapter04 section12,memoriopolis::ko::core10
+C0009,권한,gwonhan,権限,名詞,권한이 없습니다.,gwonhani eopseumnida.,権限がありません。,chapter04 section12,memoriopolis::ko::core10
+C0010,역할,yeokhal,役割／ロール,名詞,이 역할에는 설정을 변경할 권한이 있습니다.,i yeokhareneun seoljeongeul byeongyeonghal gwonhani itseumnida.,この役割には設定を変更する権限があります。,chapter04 section12,memoriopolis::ko::core10
