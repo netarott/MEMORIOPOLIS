@@ -97,3 +97,38 @@
 .nightMode .example-block {
   background-color: #303338;
 }
+
+.explanation-block {
+  margin-top: 18px;
+  padding: 18px 16px;
+  border-radius: 12px;
+  background-color: #fff8e8;
+  text-align: left;
+}
+
+.explanation-title {
+  margin-bottom: 10px;
+  color: #8a5a00;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.example-breakdown {
+  font-size: 17px;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.example-explanation {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.nightMode .explanation-block {
+  background-color: #3b3528;
+}
+
+.nightMode .explanation-title {
+  color: #f0c979;
+}

@@ -1,10 +1,27 @@
-﻿C0001,기록,girok,記録,名詞,도시의 기록을 확인했다.,dosiui girogeul hwaginhaetda.,都市の記録を確認した。,chapter04 section12,memoriopolis::ko::core10
-C0002,기억,gieok,記憶,名詞,나는 그 이름을 기억했다.,naneun geu ireumeul gieokhaetda.,私はその名前を記憶していた。,MEMORIOPOLIS core,memoriopolis::ko::core10
-C0003,도시,dosi,都市,名詞,도시의 정오를 알리는 종소리가 울렸다.,dosiui jeongoreul allineun jongsoriga ullyeotda.,都市の正午を知らせる鐘の音が鳴った。,chapter04 section12,memoriopolis::ko::core10
-C0004,알림,allim,通知,名詞,두 통의 알림이 도착했다.,du tongui allimi dochakhaetda.,二通の通知が届いた。,chapter04 section12,memoriopolis::ko::core10
-C0005,회신,hoesin,回信／返信,名詞,회신 버튼이 나타났다.,hoesin beoteuni natanatda.,回信ボタンが現れた。,chapter04 section12,memoriopolis::ko::core10
-C0006,수신인,susinin,受信人／宛先,名詞,그 아래에 회신 대상이 표시되었다.,geu araee hoesin daesangi pyosidoeeotda.,その下に回信の対象が表示された。,chapter04 section12,memoriopolis::ko::core10
-C0007,서명,seomyeong,署名,名詞,서명과 경로는 모두 확인할 수 있었다.,seomyeonggwa gyeongroneun modu hwaginhal su isseotda.,署名と経路はすべて確認できた。,chapter04 section12,memoriopolis::ko::core10
-C0008,검증,geomjeung,検証,名詞,외부 검증이 시작되었다.,oebu geomjeungi sijakdoeeotda.,外部検証が始まった。,chapter04 section12,memoriopolis::ko::core10
-C0009,권한,gwonhan,権限,名詞,권한이 없습니다.,gwonhani eopseumnida.,権限がありません。,chapter04 section12,memoriopolis::ko::core10
-C0010,역할,yeokhal,役割／ロール,名詞,이 역할에는 설정을 변경할 권한이 있습니다.,i yeokhareneun seoljeongeul byeongyeonghal gwonhani itseumnida.,この役割には設定を変更する権限があります。,chapter04 section12,memoriopolis::ko::core10
+﻿C0001,기록,girok,記録,名詞,도시의 기록을 확인했다.,dosiui girogeul hwaginhaetda.,都市の記録を確認した。,chapter04 section12,memoriopolis::ko::core10,"도시의 = 都市の
+기록을 = 記録を
+확인했다 = 確認した",도시의は「都市の」という意味です。의は、日本語の「の」に近い働きをします。기록을の을は「を」に近く、確認する対象が기록であることを示します。확인했다は「確認する」という意味の확인하다が過去形になった形です。文全体をつなぐと、「都市の記録を確認した」となります。
+C0002,기억,gieok,記憶,名詞,나는 그 이름을 기억했다.,naneun geu ireumeul gieokhaetda.,私はその名前を記憶していた。,MEMORIOPOLIS core,memoriopolis::ko::core10,"나는 ＝ 私は
+그 이름을 ＝ その名前を
+기억했다 ＝ 記憶していた",나는は「私は」です。나が「私」、는が話題を示す「は」に近い働きをします。그 이름을は「その名前を」で、을が覚えていた対象を示します。기억했다は기억하다「記憶する」の過去形です。この場面では過去に覚えていた状態を自然に表すため、「私はその名前を記憶していた」と訳しています。
+C0003,도시,dosi,都市,名詞,도시의 정오를 알리는 종소리가 울렸다.,dosiui jeongoreul allineun jongsoriga ullyeotda.,都市の正午を知らせる鐘の音が鳴った。,chapter04 section12,memoriopolis::ko::core10,"도시의 정오를 ＝ 都市の正午を
+알리는 종소리가 ＝ 知らせる鐘の音が
+울렸다 ＝ 鳴った",도시의 정오를は「都市の正午を」です。알리는は알리다「知らせる」が後ろの종소리「鐘の音」を説明する形で、「知らせる鐘の音」となります。종소리가の가は、鳴ったものが鐘の音であることを示します。울렸다は울리다「鳴る」の過去形なので、全体で「都市の正午を知らせる鐘の音が鳴った」となります。
+C0004,알림,allim,通知,名詞,두 통의 알림이 도착했다.,du tongui allimi dochakhaetda.,二通の通知が届いた。,chapter04 section12,memoriopolis::ko::core10,"두 통의 ＝ 二通の
+알림이 ＝ 通知が
+도착했다 ＝ 届いた",두は「二つ」、통は手紙や通知などを数える語です。そのため두 통의 알림は「二通の通知」となります。알림이の이は、届いたものが通知であることを示します。도착했다は도착하다「到着する」の過去形です。日本語では通知について「到着した」より「届いた」が自然なので、「二通の通知が届いた」と訳しています。
+C0005,회신,hoesin,回信／返信,名詞,회신 버튼이 나타났다.,hoesin beoteuni natanatda.,回信ボタンが現れた。,chapter04 section12,memoriopolis::ko::core10,"회신 버튼이 ＝ 回信ボタンが
+나타났다 ＝ 現れた",회신 버튼は「回信ボタン」です。이は、そのボタンが文の中で現れたものだと示します。나타났다は나타나다「現れる」の過去形です。韓国語の語順どおりに意味をつなげると、「回信ボタンが現れた」となります。
+C0006,수신인,susinin,受信人／宛先,名詞,그 아래에 회신 대상이 표시되었다.,geu araee hoesin daesangi pyosidoeeotda.,その下に回信の対象が表示された。,chapter04 section12,memoriopolis::ko::core10,"그 아래에 ＝ その下に
+회신 대상이 ＝ 回信の対象が
+표시되었다 ＝ 表示された",그 아래에の에は、表示された場所を示し、「その下に」となります。회신 대상は直訳すると「回信対象」で、日本語では「回信の対象」とすると自然です。표시되었다は표시하다「表示する」に되다が加わった受け身の形で、「表示された」という意味です。したがって、「その下に回信の対象が表示された」となります。
+C0007,서명,seomyeong,署名,名詞,서명과 경로는 모두 확인할 수 있었다.,seomyeonggwa gyeongroneun modu hwaginhal su isseotda.,署名と経路はすべて確認できた。,chapter04 section12,memoriopolis::ko::core10,"서명과 경로는 ＝ 署名と経路は
+모두 ＝ すべて
+확인할 수 있었다 ＝ 確認できた",서명과 경로は「署名と経路」です。과は名詞どうしを結ぶ「と」に近い働きをします。는は、この二つを話題として取り上げています。확인할 수 있었다は、확인하다「確認する」に「できる」を表す-(으)ㄹ 수 있다が付き、さらに過去形になったものです。全体で「署名と経路はすべて確認できた」となります。
+C0008,검증,geomjeung,検証,名詞,외부 검증이 시작되었다.,oebu geomjeungi sijakdoeeotda.,外部検証が始まった。,chapter04 section12,memoriopolis::ko::core10,"외부 검증이 ＝ 外部検証が
+시작되었다 ＝ 始まった",외부 검증は「外部検証」です。이は、始まったものが外部検証であることを示します。시작되었다は시작하다「開始する」に되다が加わり、「開始された」「始まった」という意味になります。日本語として自然な「外部検証が始まった」と訳しています。
+C0009,권한,gwonhan,権限,名詞,권한이 없습니다.,gwonhani eopseumnida.,権限がありません。,chapter04 section12,memoriopolis::ko::core10,"권한이 ＝ 権限が
+없습니다 ＝ ありません",권한이は「権限が」です。이は、ないものが権限であることを示します。없습니다は없다「ない」の丁寧な言い方です。韓国語では「権限がない」と組み立て、日本語の丁寧な表現にすると「権限がありません」となります。
+C0010,역할,yeokhal,役割／ロール,名詞,이 역할에는 설정을 변경할 권한이 있습니다.,i yeokhareneun seoljeongeul byeongyeonghal gwonhani itseumnida.,この役割には設定を変更する権限があります。,chapter04 section12,memoriopolis::ko::core10,"이 역할에는 ＝ この役割には
+설정을 변경할 ＝ 設定を変更する
+권한이 있습니다 ＝ 権限があります",이 역할에는は「この役割には」です。에는は、役割を範囲として取り上げ、「この役割には」と示します。설정을の을は変更する対象が설정「設定」であることを表します。변경할は변경하다「変更する」が後ろの권한「権限」を説明する形です。권한이 있습니다は「権限があります」なので、全体で「この役割には設定を変更する権限があります」となります。
