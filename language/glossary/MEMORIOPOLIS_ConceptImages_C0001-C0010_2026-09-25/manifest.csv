@@ -1,0 +1,11 @@
+﻿ConceptID,Slug,Width,Height,PNG,WebP,WebPBytes
+C0001,record,250,626,memoriopolis_c0001_record.png,memoriopolis_c0001_record.webp,70820
+C0002,memory,249,626,memoriopolis_c0002_memory.png,memoriopolis_c0002_memory.webp,70104
+C0003,city,248,626,memoriopolis_c0003_city.png,memoriopolis_c0003_city.webp,81154
+C0004,notification,249,626,memoriopolis_c0004_notification.png,memoriopolis_c0004_notification.webp,67726
+C0005,reply,249,626,memoriopolis_c0005_reply.png,memoriopolis_c0005_reply.webp,71180
+C0006,recipient,250,625,memoriopolis_c0006_recipient.png,memoriopolis_c0006_recipient.webp,73314
+C0007,signature,249,625,memoriopolis_c0007_signature.png,memoriopolis_c0007_signature.webp,61518
+C0008,verification,248,625,memoriopolis_c0008_verification.png,memoriopolis_c0008_verification.webp,74002
+C0009,authorization,249,625,memoriopolis_c0009_authorization.png,memoriopolis_c0009_authorization.webp,67316
+C0010,role,249,625,memoriopolis_c0010_role.png,memoriopolis_c0010_role.webp,72314
