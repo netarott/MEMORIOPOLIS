@@ -1,0 +1,11 @@
+﻿ConceptID,Japanese,Slug,Width,Height,PNG,WebP,WebPBytes
+C0011,ある,exist,250,626,png/memoriopolis_c0011_exist.png,webp/memoriopolis_c0011_exist.webp,74866
+C0012,する,do,249,626,png/memoriopolis_c0012_do.png,webp/memoriopolis_c0012_do.webp,70346
+C0013,持つ,have,248,626,png/memoriopolis_c0013_have.png,webp/memoriopolis_c0013_have.webp,52774
+C0014,送る,send,249,626,png/memoriopolis_c0014_send.png,webp/memoriopolis_c0014_send.webp,57774
+C0015,受け取る,receive,249,626,png/memoriopolis_c0015_receive.png,webp/memoriopolis_c0015_receive.webp,49032
+C0016,聞く,hear,250,625,png/memoriopolis_c0016_hear.png,webp/memoriopolis_c0016_hear.webp,50436
+C0017,調べる,look_up,249,625,png/memoriopolis_c0017_look_up.png,webp/memoriopolis_c0017_look_up.webp,49540
+C0018,移る,move,248,625,png/memoriopolis_c0018_move.png,webp/memoriopolis_c0018_move.webp,61874
+C0019,結びつく,connect,249,625,png/memoriopolis_c0019_connect.png,webp/memoriopolis_c0019_connect.webp,65968
+C0020,縛られる,be_bound,249,625,png/memoriopolis_c0020_be_bound.png,webp/memoriopolis_c0020_be_bound.webp,60590
