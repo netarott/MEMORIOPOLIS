@@ -1,0 +1,153 @@
+﻿---
+essay_id: E0001
+title: "Dari ‘Romaru’ Menuju Orang Roma"
+date: 2026-09-26
+language: id
+status: canonical
+canonical_source: E0001_ja.md
+source_type: personal_observation
+location: Jalur Yurakucho
+core_range: C0011-C0020
+tags:
+  - unknown-word
+  - mobility
+  - land
+  - community
+  - platform
+  - romani
+---
+
+# E0001 Dari “Romaru” Menuju Orang Roma
+
+Entah kemarin atau dua hari yang lalu.
+
+Dalam perjalanan pulang dengan kereta Jalur Yurakucho, saya mendengar percakapan dua orang yang duduk di sebelah saya. Suara mereka begitu keras hingga telinga kanan saya rasanya hampir tidak tahan lagi.
+
+Mereka sedang membicarakan cara agar disukai oleh rekan kerja yang lebih muda.
+
+Di tengah percakapan, mereka juga beberapa kali mengatakan ingin segera menikah. Dari pembicaraan mereka, sepertinya saat ini tidak ada seorang pun yang sedang mereka kencani.
+
+Saya sudah berniat pindah tempat duduk.
+
+Tepat pada saat itulah sebuah kata yang belum pernah saya dengar masuk ke telinga saya.
+
+“Walaupun sepuluh tahun lebih muda, aku tetap bisa ‘romaru’ dengan mudah. Aku percaya diri.”
+
+Romaru.
+
+Setidaknya, begitulah bunyinya bagi saya.
+
+Mungkinkah itu kata kerja baru yang dibentuk dari kata “romansa” atau “romantis”?
+
+Namun, sebanyak apa pun saya mencari, saya tidak menemukan arti yang sesuai dengan konteks percakapan itu.
+
+Sebagai gantinya, yang muncul dalam hasil pencarian adalah orang Roma.
+
+Ketika masih menjadi mahasiswa dan bepergian di Eropa, saya pernah melihat seorang Roma meminta uang kepada para penumpang di dalam kereta.
+
+Sejak saat itu, pemandangan tersebut dan kata “Roma” telah saling terhubung dalam ingatan saya.
+
+Ketika saya mencari tahu kembali, saya menemukan bahwa, menurut pandangan yang umum dalam linguistik dan sejarah, leluhur orang Roma berasal dari India utara dan berpindah ke arah barat dalam rentang waktu yang panjang.
+
+Rujukan:
+https://en.wikipedia.org/wiki/Romani_people#Origin
+
+Ketika membuka artikel berbahasa Inggris, jumlah informasinya tampak jauh lebih banyak daripada artikel berbahasa Jepang.
+
+Saya tidak menyukai cara pandang yang memaksa segala sesuatu masuk ke dalam kerangka negara-bangsa.
+
+Namun, ketika mulai memikirkan orang Roma, saya menjadi tertarik pada perbedaan antara komunitas yang berakar pada suatu tanah dan komunitas yang berpindah dari satu tempat ke tempat lain.
+
+Pada masa ketika pertanian dan sumber daya sangat terikat pada tanah, komunitas yang mampu terus menempati dan mempertahankan suatu wilayah barangkali lebih mudah memiliki dasar bagi kehidupan sehari-hari.
+
+Sementara itu, orang-orang yang berpindah mungkin perlu memadukan keterampilan, perdagangan, pertunjukan, tenaga kerja, dan berbagai layanan agar dapat hidup di luar dasar produksi yang menetap pada suatu tanah.
+
+Tentu saja, ini bukan penjelasan mengenai pekerjaan atau cara hidup seluruh orang Roma.
+
+Ini hanyalah hipotesis sementara yang lahir dari satu pemandangan yang pernah saya lihat di dalam kereta bertahun-tahun lalu.
+
+Pada masa kini, pertanian telah semakin mekanis. Orang-orang yang menjadi bagian dari komunitas menetap pun bekerja dalam bidang layanan, informasi, keuangan, teknologi, dan berbagai pekerjaan lain yang tidak berkaitan langsung dengan tanah.
+
+Dengan kemampuan berbahasa Inggris dan akses komunikasi, seseorang dapat meninggalkan tempat kelahirannya lalu bekerja dengan melintasi berbagai negara dan sistem.
+
+Jika hanya melihat kemungkinan bergerak dalam ruang, bahkan orang-orang yang hidup menetap kini menjadi lebih mudah berpindah daripada dahulu.
+
+Namun, kemampuan untuk berpindah bukan berarti kebebasan sepenuhnya.
+
+Orang yang aktif di media sosial mungkin tampak tidak terikat pada tanah tertentu. Akan tetapi, kegiatannya tetap terhubung dengan jumlah pengikut dan tayangan, aturan platform, serta algoritma rekomendasi.
+
+Sebagai ganti meninggalkan satu jenis tanah, orang tersebut terhubung dengan jenis tanah yang lain.
+
+Tanah baru itu bukanlah tanah dalam arti harfiah.
+
+Tanah tersebut terbentuk dari angka, aturan, dan khalayak.
+
+Jika dilihat dari sedikit kejauhan, seorang pemengaruh mungkin tampak bukan sebagai orang yang bergerak dengan bebas, melainkan sebagai orang yang harus terus-menerus menerima perhatian dari para pengikut agar dapat mempertahankan kehidupannya.
+
+Ini bukan berarti orang tersebut sama dengan seseorang yang meminta uang kepada para penumpang di dalam kereta.
+
+Keduanya tidak dapat disamakan.
+
+Namun, mungkin terdapat kemiripan struktural yang jauh: untuk mempertahankan kehidupan, seseorang harus terus menerima sesuatu dari orang lain.
+
+Tidak terikat pada tanah bukan berarti tidak terikat pada apa pun.
+
+Ketika menjauh dari negara, seseorang terhubung dengan pasar.
+
+Ketika menjauh dari pasar, seseorang terhubung dengan komunitas.
+
+Ketika menjauh dari komunitas, seseorang terhubung dengan platform.
+
+Manusia tidak kehilangan tanah tempat berpijak.
+
+Manusia hanya mengganti tanah yang menjadi tempatnya terhubung.
+
+Saya mendengar sebuah kata yang tidak saya pahami: “romaru.”
+
+Sampai sekarang, saya masih belum mengetahui artinya.
+
+Namun, selama mencari arti kata tersebut, saya teringat kepada orang Roma, memikirkan tanah dan perpindahan, lalu pada akhirnya tiba pada para pengikut di media sosial.
+
+Saya tidak menemukan arti kata itu.
+
+Meskipun demikian, kata tersebut telah membuka sebuah jalan.
+
+---
+
+## Catatan penyusunan
+
+### Titik awal pengamatan
+
+Kata “romaru” yang secara kebetulan terdengar di dalam kereta Jalur Yurakucho. Penulis mendengarnya sebagai “romaru”, tetapi bentuk asli dan artinya belum dapat dipastikan.
+
+### Pembedaan fakta, ingatan, dan hipotesis
+
+- Percakapan di dalam kereta dan pemandangan saat bepergian di Eropa merupakan pengamatan dan ingatan pribadi penulis.
+- Uraian singkat mengenai asal-usul orang Roma didasarkan pada sumber rujukan yang dicantumkan dalam teks.
+- Pemikiran mengenai tanah, perpindahan, layanan, dan media sosial merupakan interpretasi serta hipotesis sementara penulis.
+- Arti “romaru” belum ditentukan. Kemungkinan salah dengar, istilah yang digunakan kelompok terbatas, atau kata yang diciptakan dalam percakapan tersebut tetap dibiarkan terbuka.
+
+### Hubungan dengan JANUS-18
+
+Esai ini menjadi salah satu sumber utama Core20 dalam lingkar LIVING-13. Hubungan antara E0001 dan Core20 tidak diperlakukan sebagai hubungan satu-lawan-satu yang kaku. Pemilihan akhir Concept ditentukan melalui keseimbangan antara alokasi yang direncanakan, Concept yang benar-benar muncul dalam esai, dan Concept yang ditemukan melalui pengalaman serta asosiasi pribadi.
+
+### Core20
+
+- C0011 ada / eksis
+- C0012 melakukan
+- C0013 memiliki
+- C0014 mengirim
+- C0015 menerima
+- C0016 mendengar
+- C0017 mencari / menyelidiki
+- C0018 berpindah
+- C0019 terhubung
+- C0020 terikat
+
+### Prinsip penerjemahan
+
+Versi bahasa Indonesia tidak mengikuti urutan kata dan sintaksis bahasa Jepang secara harfiah. Kalimat dan paragraf disusun ulang agar alurnya wajar dalam bahasa Indonesia. Jalur pengalaman utama tetap dipertahankan: dari kata yang tidak dikenal menuju ingatan, dari ingatan menuju tanah dan perpindahan, lalu menuju keterikatan pada platform. Akhir yang terbuka juga dipertahankan.
+
+### Status
+
+Versi bahasa Indonesia canonical.
