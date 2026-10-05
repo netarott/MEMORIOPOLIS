@@ -1,0 +1,82 @@
+{
+  "work": "E0001",
+  "rule": "1 Markdown = 1 MP3",
+  "generated_at_utc": "2026-10-05T06:30:53.766100+00:00",
+  "engine": "edge-tts",
+  "results": [
+    {
+      "language": "ja",
+      "source": "E0001_ja.md",
+      "status": "skipped",
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-3%"
+    },
+    {
+      "language": "en",
+      "source": "E0001_en.md",
+      "status": "skipped",
+      "voice": "en-US-AndrewNeural",
+      "rate": "-6%"
+    },
+    {
+      "language": "zh-Hant-TW",
+      "source": "E0001_zh-Hant-TW.md",
+      "status": "skipped",
+      "voice": "zh-TW-HsiaoChenNeural",
+      "rate": "-8%"
+    },
+    {
+      "language": "ko",
+      "source": "E0001_ko.md",
+      "status": "generated",
+      "voice": "ko-KR-SunHiNeural",
+      "locale": "ko-KR",
+      "rate": "-8%",
+      "mp3": "E0001_ko.mp3",
+      "narration": "E0001_ko.narration.txt",
+      "srt": "E0001_ko.srt",
+      "characters": 2033
+    },
+    {
+      "language": "ru",
+      "source": "E0001_ru.md",
+      "status": "generated",
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "rate": "-8%",
+      "mp3": "E0001_ru.mp3",
+      "narration": "E0001_ru.narration.txt",
+      "srt": "E0001_ru.srt",
+      "characters": 6071
+    },
+    {
+      "language": "fil",
+      "source": "E0001_fil.md",
+      "status": "skipped",
+      "voice": "fil-PH-BlessicaNeural",
+      "rate": "-8%"
+    },
+    {
+      "language": "id",
+      "source": "E0001_id.md",
+      "status": "skipped",
+      "voice": "id-ID-GadisNeural",
+      "rate": "-8%"
+    },
+    {
+      "language": "vi",
+      "source": "E0001_vi.md",
+      "status": "skipped",
+      "voice": "vi-VN-HoaiMyNeural",
+      "rate": "-10%"
+    },
+    {
+      "language": "fr",
+      "source": "E0001_fr.md",
+      "status": "skipped",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "-8%"
+    }
+  ],
+  "failures": []
+}

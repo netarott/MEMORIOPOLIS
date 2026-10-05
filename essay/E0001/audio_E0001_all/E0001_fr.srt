@@ -1,0 +1,208 @@
+1
+00:00:00,100 --> 00:00:04,178
+E0001 De « romaru » aux Roms
+
+2
+00:00:04,128 --> 00:00:07,432
+C’était hier, ou peut-être avant-hier.
+
+3
+00:00:07,432 --> 00:00:09,850
+Je ne sais plus exactement.
+
+4
+00:00:09,850 --> 00:00:17,853
+Dans le train de la ligne Yurakucho qui me ramenait chez moi, j’ai entendu la conversation de deux personnes assises à côté de moi.
+
+5
+00:00:17,853 --> 00:00:22,826
+Elles parlaient si fort que mon oreille droite était près de ne plus le supporter.
+
+6
+00:00:22,826 --> 00:00:26,859
+Elles cherchaient comment se faire apprécier d’un collègue plus jeune.
+
+7
+00:00:26,859 --> 00:00:33,260
+Au fil de la conversation, elles ont aussi répété plusieurs fois qu’elles voulaient se marier au plus vite.
+
+8
+00:00:33,260 --> 00:00:39,005
+D’après ce que j’entendais, aucune des deux ne semblait avoir de partenaire à ce moment-là.
+
+9
+00:00:39,005 --> 00:00:42,212
+J’étais sur le point de changer de place.
+
+10
+00:00:42,212 --> 00:00:48,546
+C’est précisément à cet instant qu’un mot que je n’avais encore jamais entendu est arrivé jusqu’à mon oreille.
+
+11
+00:00:48,546 --> 00:00:53,503
+Même avec quelqu’un de dix ans plus jeune, je peux facilement “romaru”.
+
+12
+00:00:53,503 --> 00:00:55,747
+J’ai confiance en moi.
+
+13
+00:00:55,747 --> 00:00:57,429
+Romaru.
+
+14
+00:00:57,429 --> 00:01:00,679
+Du moins, c’est ainsi que je l’ai entendu.
+
+15
+00:01:00,679 --> 00:01:06,589
+Était-ce un verbe nouveau, formé à partir de « romance » ou de « romantique » ?
+
+16
+00:01:06,589 --> 00:01:13,111
+J’ai eu beau chercher, je n’ai trouvé aucun sens qui corresponde au contexte de la conversation.
+
+17
+00:01:13,111 --> 00:01:17,948
+À la place, les résultats de recherche m’ont conduit vers les Roms.
+
+18
+00:01:17,948 --> 00:01:25,801
+À l’époque où j’étais étudiant et voyageais en Europe, j’avais vu une personne rom demander de l’argent aux voyageurs dans un train.
+
+19
+00:01:25,801 --> 00:01:30,989
+Depuis, cette scène et le mot « Rom » s’étaient liés dans ma mémoire.
+
+20
+00:01:30,989 --> 00:01:45,081
+En reprenant mes recherches, j’ai appris que, selon l’interprétation généralement admise en linguistique et en histoire, les ancêtres des Roms seraient originaires du nord de l’Inde et auraient migré vers l’ouest au cours d’une très longue période.
+
+21
+00:01:45,081 --> 00:01:52,133
+En ouvrant l’article en anglais, j’ai constaté qu’il contenait beaucoup plus d’informations que l’article en japonais.
+
+22
+00:01:52,133 --> 00:01:57,989
+Je n’aime pas les façons de voir qui cherchent à faire entrer toute chose dans le cadre de l’État-nation.
+
+23
+00:01:57,989 --> 00:02:07,499
+Pourtant, en pensant aux Roms, je me suis intéressé à la différence entre les communautés enracinées dans une terre et celles qui se déplacent d’un lieu à l’autre.
+
+24
+00:02:07,499 --> 00:02:20,459
+À une époque où l’agriculture et les ressources étaient étroitement liées à la terre, les communautés capables d’occuper et de conserver durablement un territoire disposaient sans doute plus facilement d’une base pour la vie quotidienne.
+
+25
+00:02:20,459 --> 00:02:33,301
+Les personnes qui se déplaçaient, en revanche, devaient peut-être combiner savoir-faire, commerce, spectacle, travail et services divers afin de vivre hors d’un système de production fixé à une terre.
+
+26
+00:02:33,301 --> 00:02:39,307
+Bien entendu, cela n’explique ni les métiers ni les modes de vie de l’ensemble des Roms.
+
+27
+00:02:39,307 --> 00:02:45,448
+Ce n’est qu’une hypothèse provisoire, née d’une scène aperçue dans un train bien des années auparavant.
+
+28
+00:02:45,448 --> 00:02:49,619
+Aujourd’hui, l’agriculture est largement mécanisée.
+
+29
+00:02:49,619 --> 00:03:01,003
+Même les membres de communautés établies travaillent dans les services, l’information, la finance, la technologie et de nombreux autres domaines qui ne sont pas directement liés à la terre.
+
+30
+00:03:01,003 --> 00:03:11,234
+Avec la maîtrise de l’anglais et l’accès aux moyens de communication, une personne peut quitter son lieu de naissance et travailler en traversant différents pays et différents systèmes.
+
+31
+00:03:11,234 --> 00:03:20,842
+Si l’on ne considère que la possibilité de se déplacer dans l’espace, même les personnes qui vivent de façon sédentaire sont aujourd’hui plus mobiles qu’autrefois.
+
+32
+00:03:20,842 --> 00:03:25,190
+Mais pouvoir se déplacer ne signifie pas être entièrement libre.
+
+33
+00:03:25,190 --> 00:03:31,073
+Une personne active sur les réseaux sociaux peut sembler détachée de toute terre particulière.
+
+34
+00:03:31,073 --> 00:03:39,497
+Pourtant, son activité demeure liée au nombre d’abonnés et de vues, aux règles des plateformes et aux algorithmes de recommandation.
+
+35
+00:03:39,497 --> 00:03:43,666
+En quittant une forme de terre, elle se relie à une autre.
+
+36
+00:03:43,666 --> 00:03:47,309
+Cette nouvelle terre n’est pas de la terre au sens propre.
+
+37
+00:03:47,309 --> 00:03:50,801
+Elle est faite de chiffres, de règles et de foules.
+
+38
+00:03:50,956 --> 00:04:03,867
+Vue avec un peu de recul, une personne influente sur les réseaux sociaux peut apparaître non comme quelqu’un qui se déplace librement, mais comme quelqu’un qui doit continuellement recevoir l’attention des autres pour maintenir sa vie.
+
+39
+00:04:03,817 --> 00:04:10,856
+Cela ne signifie pas que cette personne soit identique à quelqu’un qui demande de l’argent aux voyageurs dans un train.
+
+40
+00:04:10,856 --> 00:04:13,245
+On ne peut pas les confondre.
+
+41
+00:04:13,245 --> 00:04:22,785
+Il existe peut-être néanmoins une ressemblance structurelle lointaine : pour continuer à vivre, il faut continuellement recevoir quelque chose des autres.
+
+42
+00:04:22,785 --> 00:04:27,133
+Ne pas être lié à la terre ne signifie pas n’être lié à rien.
+
+43
+00:04:27,133 --> 00:04:31,019
+Quand on s’éloigne de l’État, on se relie au marché.
+
+44
+00:04:31,019 --> 00:04:35,557
+Quand on s’éloigne du marché, on se relie à une communauté.
+
+45
+00:04:35,557 --> 00:04:40,461
+Quand on s’éloigne de la communauté, on se relie à une plateforme.
+
+46
+00:04:40,461 --> 00:04:44,225
+Les êtres humains ne perdent pas le sol sous leurs pieds.
+
+47
+00:04:44,225 --> 00:04:47,771
+Ils changent seulement la terre à laquelle ils se relient.
+
+48
+00:04:47,771 --> 00:04:52,092
+J’avais entendu un mot que je ne comprenais pas : « romaru ».
+
+49
+00:04:52,092 --> 00:04:56,019
+Aujourd’hui encore, j’ignore ce qu’il voulait dire.
+
+50
+00:04:56,019 --> 00:05:05,013
+Mais en cherchant son sens, j’ai pensé aux Roms, à la terre et au déplacement, puis j’ai fini par arriver jusqu’aux abonnés des réseaux sociaux.
+
+51
+00:05:05,013 --> 00:05:07,880
+Je n’ai pas trouvé le sens de ce mot.
+
+52
+00:05:07,880 --> 00:05:11,589
+Malgré cela, ce mot avait ouvert un chemin.
+
