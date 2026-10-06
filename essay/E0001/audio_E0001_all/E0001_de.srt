@@ -1,0 +1,208 @@
+1
+00:00:00,100 --> 00:00:04,128
+E0001 Vom „romaru“ zu den Roma
+
+2
+00:00:04,078 --> 00:00:07,342
+Es war gestern oder vielleicht vorgestern.
+
+3
+00:00:07,342 --> 00:00:10,144
+Ganz genau weiß ich es nicht mehr.
+
+4
+00:00:10,144 --> 00:00:17,171
+Auf der Rückfahrt in der Yurakucho-Linie hörte ich das Gespräch zweier Personen, die neben mir saßen.
+
+5
+00:00:17,171 --> 00:00:22,092
+Sie sprachen so laut, dass mein rechtes Ohr es kaum noch aushielt.
+
+6
+00:00:22,092 --> 00:00:28,907
+Es ging darum, wie man bei einer jüngeren Person aus dem eigenen Unternehmen gut ankommen könne.
+
+7
+00:00:28,907 --> 00:00:35,486
+Im Laufe des Gesprächs kam außerdem zur Sprache, dass sie möglichst bald heiraten wollten.
+
+8
+00:00:35,486 --> 00:00:40,855
+Offenbar hatte zu diesem Zeitpunkt niemand von beiden eine feste Beziehung.
+
+9
+00:00:40,855 --> 00:00:43,907
+Ich wollte gerade den Platz wechseln.
+
+10
+00:00:43,907 --> 00:00:49,710
+In diesem Augenblick drang ein Wort an mein Ohr, das ich noch nie zuvor gehört hatte.
+
+11
+00:00:49,710 --> 00:00:55,671
+Selbst bei jemandem, der zehn Jahre jünger ist, kann ich ganz locker ‚romaru‘.
+
+12
+00:00:55,671 --> 00:00:57,802
+Da bin ich mir sicher.
+
+13
+00:00:57,802 --> 00:00:59,433
+Romaru.
+
+14
+00:00:59,433 --> 00:01:02,592
+So jedenfalls hatte ich es verstanden.
+
+15
+00:01:02,592 --> 00:01:08,986
+War das vielleicht ein neu gebildetes Verb, abgeleitet von „Romanze“ oder „romantisch“
+
+16
+00:01:08,986 --> 00:01:15,763
+Doch so sehr ich auch suchte, ich fand keine Bedeutung, die zum Zusammenhang des Gesprächs passte.
+
+17
+00:01:15,763 --> 00:01:19,947
+Stattdessen führten mich die Suchergebnisse zu den Roma.
+
+18
+00:01:19,947 --> 00:01:30,684
+Als ich während meiner Studienzeit durch Europa reiste, hatte ich einmal in einem Zug eine Person aus der Roma-Gemeinschaft gesehen, die Reisende um Geld bat.
+
+19
+00:01:30,684 --> 00:01:37,302
+Seitdem waren diese Szene und das Wort „Roma“ in meiner Erinnerung miteinander verbunden.
+
+20
+00:01:37,302 --> 00:01:52,000
+Als ich erneut nachforschte, erfuhr ich, dass die Vorfahren der Roma nach der in Sprachwissenschaft und Geschichtsforschung weithin vertretenen Auffassung aus Nordindien stammen und über einen langen Zeitraum nach Westen gewandert sind.
+
+21
+00:01:52,000 --> 00:02:00,552
+Als ich den englischsprachigen Artikel öffnete, schien er deutlich mehr Informationen zu enthalten als die japanische Fassung.
+
+22
+00:02:00,552 --> 00:02:07,460
+Ich mag Sichtweisen nicht, die alles vollständig in den Rahmen des Nationalstaates einordnen wollen.
+
+23
+00:02:07,460 --> 00:02:19,697
+Doch als ich über die Roma nachzudenken begann, beschäftigte mich der Unterschied zwischen Gemeinschaften, die an einem Ort Wurzeln schlagen, und Gemeinschaften, die von Ort zu Ort ziehen.
+
+24
+00:02:19,697 --> 00:02:33,657
+In einer Zeit, in der Landwirtschaft und Ressourcen eng an Boden gebunden waren, hatten Gemeinschaften, die ein Gebiet dauerhaft besetzen und bewahren konnten, vermutlich leichter eine stabile Lebensgrundlage.
+
+25
+00:02:33,657 --> 00:02:50,236
+Menschen, die unterwegs waren, mussten vielleicht andere Fertigkeiten, Handel, Darbietungen, Arbeit und Dienstleistungen miteinander verbinden, um außerhalb einer an einen bestimmten Boden gebundenen Produktionsgrundlage leben zu können.
+
+26
+00:02:50,236 --> 00:02:55,947
+Das erklärt selbstverständlich weder die Berufe noch die Lebensweisen aller Roma.
+
+27
+00:02:55,947 --> 00:03:05,842
+Es ist lediglich eine vorläufige Hypothese, die aus einer einzigen Szene entstanden ist, die ich vor vielen Jahren in einem Zug gesehen hatte.
+
+28
+00:03:05,842 --> 00:03:10,025
+Heute ist die Landwirtschaft weitgehend mechanisiert.
+
+29
+00:03:10,025 --> 00:03:21,776
+Auch Menschen aus sesshaften Gemeinschaften arbeiten in Bereichen wie Dienstleistungen, Information, Finanzen oder Technologie, die nicht unmittelbar an Boden gebunden sind.
+
+30
+00:03:21,776 --> 00:03:33,565
+Wer Englisch beherrscht und Zugang zu Kommunikationsnetzen hat, kann den eigenen Geburtsort verlassen und über verschiedene Länder und institutionelle Systeme hinweg arbeiten.
+
+31
+00:03:33,565 --> 00:03:40,868
+Betrachtet man nur die räumliche Beweglichkeit, sind heute selbst sesshafte Menschen mobiler als früher.
+
+32
+00:03:40,868 --> 00:03:45,881
+Doch diese Beweglichkeit bedeutet keine vollständige Freiheit.
+
+33
+00:03:45,881 --> 00:03:54,118
+Wer in sozialen Netzwerken aktiv ist, kann den Eindruck erwecken, an keinen bestimmten Ort mehr gebunden zu sein.
+
+34
+00:03:54,118 --> 00:04:04,355
+Gleichzeitig bleibt diese Tätigkeit mit der Zahl der Follower und Aufrufe, mit den Regeln der Plattformen und mit Empfehlungsalgorithmen verbunden.
+
+35
+00:04:04,355 --> 00:04:07,921
+An die Stelle eines Bodens tritt ein anderer.
+
+36
+00:04:07,921 --> 00:04:11,342
+Dieser neue Boden besteht nicht aus Erde.
+
+37
+00:04:11,342 --> 00:04:15,486
+Er besteht aus Zahlen, Regeln und Publikum.
+
+38
+00:04:15,486 --> 00:04:33,223
+Mit etwas Abstand betrachtet erscheint eine einflussreiche Person in sozialen Netzwerken vielleicht weniger wie jemand, der sich frei bewegt, sondern vielmehr wie jemand, der fortwährend die Aufmerksamkeit anderer empfangen muss, um die eigene Lebensgrundlage zu erhalten.
+
+39
+00:04:33,223 --> 00:04:42,157
+Damit ist nicht gemeint, dass eine solche Person mit jemandem gleichzusetzen wäre, der Reisende in einem Zug um Geld bittet.
+
+40
+00:04:42,340 --> 00:04:46,145
+Beides lässt sich nicht miteinander verwechseln.
+
+41
+00:04:46,095 --> 00:04:56,476
+Vielleicht besteht jedoch eine entfernte strukturelle Ähnlichkeit: Um das eigene Leben aufrechtzuerhalten, muss man fortwährend etwas von anderen empfangen.
+
+42
+00:04:56,476 --> 00:05:01,950
+Nicht an den Boden gebunden zu sein bedeutet nicht, an nichts gebunden zu sein.
+
+43
+00:05:01,950 --> 00:05:06,384
+Wer sich vom Staat entfernt, verbindet sich mit dem Markt.
+
+44
+00:05:06,384 --> 00:05:11,305
+Wer sich vom Markt entfernt, verbindet sich mit einer Gemeinschaft.
+
+45
+00:05:11,305 --> 00:05:16,568
+Wer sich von der Gemeinschaft entfernt, verbindet sich mit einer Plattform.
+
+46
+00:05:16,568 --> 00:05:20,450
+Menschen verlieren nicht den Boden unter den Füßen.
+
+47
+00:05:20,450 --> 00:05:25,200
+Sie wechseln lediglich den Boden, mit dem sie verbunden sind.
+
+48
+00:05:25,200 --> 00:05:30,332
+Ich hatte ein Wort gehört, dessen Bedeutung ich nicht verstand: „romaru“
+
+49
+00:05:30,332 --> 00:05:33,976
+Noch immer weiß ich nicht, was es bedeutete.
+
+50
+00:05:33,976 --> 00:05:44,424
+Doch auf der Suche nach seinem Sinn erinnerte ich mich an die Roma, dachte über Boden und Bewegung nach und gelangte schließlich bis zu den Followern sozialer Netzwerke.
+
+51
+00:05:44,424 --> 00:05:47,555
+Die Bedeutung des Wortes fand ich nicht.
+
+52
+00:05:47,555 --> 00:05:51,318
+Trotzdem hatte dieses Wort einen Weg geöffnet.
+

@@ -1,0 +1,13 @@
+{
+  "work": "E0001",
+  "language": "de",
+  "source": "E0001_de.md",
+  "source_status": "canonical",
+  "engine": "edge-tts",
+  "locale": "de-DE",
+  "voice": "de-DE-KatjaNeural",
+  "rate": "-5%",
+  "rule": "1 Markdown = 1 MP3",
+  "characters": 5025,
+  "generated_at_utc": "2026-10-06T02:48:15.144084+00:00"
+}
