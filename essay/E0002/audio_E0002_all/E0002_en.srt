@@ -1,0 +1,76 @@
+{"type": "SentenceBoundary", "offset": 500000, "duration": 80617021, "text": "On my commute, I have been reading a little at a time from \u300e\u5348\u9910\u7684\u6566\u5b50\u300f, Greek Lessons, and \u300e\u65b0\u3057\u3044\u968e\u7d1a\u793e\u4f1a\u300f."}
+{"type": "SentenceBoundary", "offset": 81117021, "duration": 41755319, "text": "That day, I changed from the Chiyoda Line to the Yurakucho Line."}
+{"type": "SentenceBoundary", "offset": 122872340, "duration": 41755319, "text": "At Ginza-itchome Station, two passengers boarded together."}
+{"type": "SentenceBoundary", "offset": 164627659, "duration": 39095744, "text": "They took hold of the straps and began talking directly in front of me."}
+{"type": "SentenceBoundary", "offset": 203723404, "duration": 10638297, "text": "They were loud."}
+{"type": "SentenceBoundary", "offset": 214361702, "duration": 27792553, "text": "Before long, my ears began to hurt."}
+{"type": "SentenceBoundary", "offset": 242154255, "duration": 26196808, "text": "The conversation went roughly like this:"}
+{"type": "SentenceBoundary", "offset": 268351064, "duration": 50265957, "text": "\u201cI think marriage is really just about whether someone will be there beside you when you die.\u201d"}
+{"type": "SentenceBoundary", "offset": 318617022, "duration": 18351063, "text": "\u201cI know exactly what you mean.\u201d"}
+{"type": "SentenceBoundary", "offset": 336968085, "duration": 17420212, "text": "\u201cMoney is there to be spent."}
+{"type": "SentenceBoundary", "offset": 354388298, "duration": 24335106, "text": "Let's go to an okama bar next time.\u201d"}
+{"type": "SentenceBoundary", "offset": 378723405, "duration": 36170212, "text": "\u201cThe people who work at places like that are smart, aren't they?\u201d"}
+{"type": "SentenceBoundary", "offset": 414893618, "duration": 75930851, "text": "Of course, I cannot infer the shape of their lives or the values they hold from a brief conversation overheard on a train."}
+{"type": "SentenceBoundary", "offset": 490824469, "duration": 62234042, "text": "I knew nothing about what kind of work they did, what sort of families they came from, or what they had lived through."}
+{"type": "SentenceBoundary", "offset": 553058512, "duration": 35106383, "text": "Even so, their conversation left me with a question."}
+{"type": "SentenceBoundary", "offset": 588164895, "duration": 11569148, "text": "What is marriage?"}
+{"type": "SentenceBoundary", "offset": 599734044, "duration": 28723404, "text": "Having someone beside you when you die matters."}
+{"type": "SentenceBoundary", "offset": 628457448, "duration": 66489361, "text": "But having raised a son, I cannot think about marriage and family only in terms of life's final moments."}
+{"type": "SentenceBoundary", "offset": 694946810, "duration": 67420212, "text": "Biological reproduction is one of the functions that marriage as an institution has historically served."}
+{"type": "SentenceBoundary", "offset": 762367023, "duration": 72606383, "text": "Yet for human beings, bringing a child into the world is not enough to make that child a member of the next society."}
+{"type": "SentenceBoundary", "offset": 834973406, "duration": 33643617, "text": "It takes about twenty years to raise one human being."}
+{"type": "SentenceBoundary", "offset": 868617023, "duration": 33643617, "text": "Parents are better able to do that if they remain alive."}
+{"type": "SentenceBoundary", "offset": 902260640, "duration": 12632978, "text": "A home is needed."}
+{"type": "SentenceBoundary", "offset": 914893619, "duration": 29122340, "text": "Someone has to work to sustain daily life."}
+{"type": "SentenceBoundary", "offset": 944015959, "duration": 38563829, "text": "At the same time, someone also has to spend time with the child."}
+{"type": "SentenceBoundary", "offset": 982579789, "duration": 43085106, "text": "Human beings are mammals whose young require a long period of care."}
+{"type": "SentenceBoundary", "offset": 1025664896, "duration": 37632978, "text": "Human society is also extraordinarily complex."}
+{"type": "SentenceBoundary", "offset": 1063297875, "duration": 120212766, "text": "Children need years to learn how to use language, negotiate distance from other people, follow rules, take on roles, avoid danger, handle tools, and live within institutions."}
+{"type": "SentenceBoundary", "offset": 1183510641, "duration": 36037234, "text": "Installing the social operating system takes a long time."}
+{"type": "SentenceBoundary", "offset": 1219547875, "duration": 96276595, "text": "Perhaps the generation before mine was more likely to assume that if money was earned and brought home, the next generation would somehow grow up on its own."}
+{"type": "SentenceBoundary", "offset": 1315824471, "duration": 24069148, "text": "That was certainly not true of everyone."}
+{"type": "SentenceBoundary", "offset": 1339893620, "duration": 101462766, "text": "Still, for a long time, society treated one person working long hours for a company and another person raising children at home as its standard model."}
+{"type": "SentenceBoundary", "offset": 1441356386, "duration": 47739361, "text": "Greater equality between women and men changed that model profoundly."}
+{"type": "SentenceBoundary", "offset": 1489095748, "duration": 93882978, "text": "More people gained access to education, the freedom to choose a profession, the ability to earn their own income, and the right to speak openly in public."}
+{"type": "SentenceBoundary", "offset": 1582978727, "duration": 85904255, "text": "Even being able to discuss marriage, money, and leisure without restraint on a train may be one expression of that expanded freedom."}
+{"type": "SentenceBoundary", "offset": 1668882982, "duration": 19547872, "text": "But this raises another question."}
+{"type": "SentenceBoundary", "offset": 1688430855, "duration": 94547872, "text": "What happens if more people are allowed to enter the competition, while the playing field itself still assumes a person who does not carry responsibility for care?"}
+{"type": "SentenceBoundary", "offset": 1782978727, "duration": 37632978, "text": "The worker imagined by a company is always available."}
+{"type": "SentenceBoundary", "offset": 1820611706, "duration": 102925532, "text": "The ideal worker can respond to sudden demands, work long hours, relocate when necessary, and keep everything outside work from entering the workplace."}
+{"type": "SentenceBoundary", "offset": 1923537238, "duration": 43484042, "text": "A person caring for a baby or a young child cannot live that way."}
+{"type": "SentenceBoundary", "offset": 1967021281, "duration": 32313829, "text": "Children do not sleep according to company schedules."}
+{"type": "SentenceBoundary", "offset": 1999335111, "duration": 10904255, "text": "They get sick."}
+{"type": "SentenceBoundary", "offset": 2010239366, "duration": 20212766, "text": "Sometimes they need someone to listen."}
+{"type": "SentenceBoundary", "offset": 2030452132, "duration": 97606383, "text": "There are meals, baths, medical appointments, trips to and from nursery school, play, study, arguments, and reconciliation."}
+{"type": "SentenceBoundary", "offset": 2128058516, "duration": 45079787, "text": "It is difficult to divide work and childcare evenly at all times."}
+{"type": "SentenceBoundary", "offset": 2173138303, "duration": 68218085, "text": "During the most demanding years, childcare may take ninety percent of a person's capacity, or all of it."}
+{"type": "SentenceBoundary", "offset": 2241356388, "duration": 84175532, "text": "A more realistic system would allow people to hand their work over to trusted colleagues for a time and return when the burden of care has eased."}
+{"type": "SentenceBoundary", "offset": 2325531920, "duration": 54122340, "text": "What we need is not the celebration of superhuman workers who manage everything alone."}
+{"type": "SentenceBoundary", "offset": 2381060000, "duration": 211069149, "text": "We need systems that make it possible to hand work over safely, sustain a household during the years of intensive childcare, protect a person's position and path back into the workplace, avoid concentrating the entire burden on the colleagues who take over, and refuse to treat the experience of raising a child as a blank space in a career."}
+{"type": "SentenceBoundary", "offset": 2592129149, "duration": 71542553, "text": "The phrase \u201cwomen's advancement\u201d has often meant enabling women to enter an existing model of success."}
+{"type": "SentenceBoundary", "offset": 2663671702, "duration": 91356383, "text": "But if that model was built around people who could leave care work at home to someone else, increasing the number of people allowed to participate is not enough."}
+{"type": "SentenceBoundary", "offset": 2755028086, "duration": 22207446, "text": "There are more pieces to choose from now."}
+{"type": "SentenceBoundary", "offset": 2777235532, "duration": 26196808, "text": "But the rules of the board may still be old."}
+{"type": "SentenceBoundary", "offset": 2803432341, "duration": 31781914, "text": "There was something else in the conversation that stayed with me."}
+{"type": "SentenceBoundary", "offset": 2835214256, "duration": 91223404, "text": "People work, earn money, spend it, and seek relief from the tensions of daily life in spaces built around hospitality and performance."}
+{"type": "SentenceBoundary", "offset": 2926437660, "duration": 70079787, "text": "In some of those spaces, people perform ways of speaking and gendered roles that differ from those of ordinary life."}
+{"type": "SentenceBoundary", "offset": 2996517448, "duration": 38164893, "text": "It seemed to me that several layers of performance were overlapping."}
+{"type": "SentenceBoundary", "offset": 3034682342, "duration": 54920212, "text": "At work, people adapt themselves to an older, male-centered model of success."}
+{"type": "SentenceBoundary", "offset": 3089602554, "duration": 52925532, "text": "Outside work, they loosen the resulting tension in another space of performance."}
+{"type": "SentenceBoundary", "offset": 3142528087, "duration": 91888298, "text": "Customers and performers alike make use of the roles society has handed them, sometimes reversing those roles in order to create the space between them."}
+{"type": "SentenceBoundary", "offset": 3234416385, "duration": 64494681, "text": "But I have never been to the place they were discussing, and I do not know what the two passengers themselves were looking for."}
+{"type": "SentenceBoundary", "offset": 3298911066, "duration": 22606383, "text": "What I saw was not their inner lives."}
+{"type": "SentenceBoundary", "offset": 3321517449, "duration": 53191489, "text": "It was a structure that took shape in my own mind, prompted by a brief conversation."}
+{"type": "SentenceBoundary", "offset": 3374708938, "duration": 9441489, "text": "Marriage."}
+{"type": "SentenceBoundary", "offset": 3384150428, "duration": 9707446, "text": "Childcare."}
+{"type": "SentenceBoundary", "offset": 3393857874, "duration": 7579787, "text": "Work."}
+{"type": "SentenceBoundary", "offset": 3401437662, "duration": 7446808, "text": "Money."}
+{"type": "SentenceBoundary", "offset": 3408884470, "duration": 10106383, "text": "Consumption."}
+{"type": "SentenceBoundary", "offset": 3418990853, "duration": 11170212, "text": "Gender roles."}
+{"type": "SentenceBoundary", "offset": 3430161066, "duration": 28989361, "text": "The forms of success offered by society."}
+{"type": "SentenceBoundary", "offset": 3459150428, "duration": 32579787, "text": "They connected into a single, twisted line."}
+{"type": "SentenceBoundary", "offset": 3491730215, "duration": 27260638, "text": "I know nothing about the lives of those two people."}
+{"type": "SentenceBoundary", "offset": 3518990853, "duration": 30053191, "text": "It would be presumptuous of me to evaluate them."}
+{"type": "SentenceBoundary", "offset": 3549044045, "duration": 146010638, "text": "Still, as I listened, I felt that we had not yet built an adequate bridge between a society in which everyone is increasingly able to work in the same way and a society that can continue only if someone raises the next generation."}
+{"type": "SentenceBoundary", "offset": 3695054684, "duration": 25797872, "text": "The train was running on the Yurakucho Line."}
+{"type": "SentenceBoundary", "offset": 3720852556, "duration": 44813829, "text": "But what I was looking at was another track, laid between competition and care."}

@@ -1,0 +1,50 @@
+{"type": "SentenceBoundary", "offset": 1000000, "duration": 29803191, "text": "Forse era ieri, o forse l'altro ieri."}
+{"type": "SentenceBoundary", "offset": 30303191, "duration": 77941489, "text": "Sul treno della linea Yurakucho, mentre tornavo a casa, sentii la conversazione di due persone sedute accanto a me."}
+{"type": "SentenceBoundary", "offset": 108244681, "duration": 64361702, "text": "Parlavano a voce piuttosto alta, tanto che il mio orecchio destro sembrava non riuscire pi\u00f9 a sopportarla."}
+{"type": "SentenceBoundary", "offset": 172606383, "duration": 53058510, "text": "Discutevano di come riuscire a piacere a una persona pi\u00f9 giovane della loro azienda."}
+{"type": "SentenceBoundary", "offset": 225664894, "duration": 45744680, "text": "Nel corso della conversazione dissero anche di volersi sposare presto."}
+{"type": "SentenceBoundary", "offset": 271409575, "duration": 43085106, "text": "A quanto pare, al momento nessuna delle due aveva una relazione."}
+{"type": "SentenceBoundary", "offset": 314494681, "duration": 17686170, "text": "Stavo per cambiare posto."}
+{"type": "SentenceBoundary", "offset": 332180851, "duration": 50930851, "text": "Proprio in quell'istante, mi arriv\u00f2 all'orecchio una parola che non avevo mai sentito."}
+{"type": "SentenceBoundary", "offset": 383111703, "duration": 42287234, "text": "Anche con dieci anni di differenza, posso tranquillamente \u201cromaru\u201d."}
+{"type": "SentenceBoundary", "offset": 425398937, "duration": 18484042, "text": "Ne sono sicuro."}
+{"type": "SentenceBoundary", "offset": 443882979, "duration": 8909574, "text": "Romaru."}
+{"type": "SentenceBoundary", "offset": 452792554, "duration": 32180851, "text": "Almeno, questo \u00e8 ci\u00f2 che mi parve di sentire."}
+{"type": "SentenceBoundary", "offset": 484973405, "duration": 26446808, "text": "Forse era una parola derivata da \u201cromance\u201d?"}
+{"type": "SentenceBoundary", "offset": 511420214, "duration": 73686170, "text": "Eppure, anche cercandola, non trovai alcun significato compatibile con il contesto della conversazione."}
+{"type": "SentenceBoundary", "offset": 585106384, "duration": 43750000, "text": "Al suo posto, tra i risultati della ricerca comparvero i rom."}
+{"type": "SentenceBoundary", "offset": 628856384, "duration": 69281915, "text": "Quando, da studente, viaggiai in Europa, vidi su un treno una persona rom che chiedeva denaro."}
+{"type": "SentenceBoundary", "offset": 698138299, "duration": 40159574, "text": "Dentro di me, quella scena era rimasta legata alla parola \u00abrom\u00bb."}
+{"type": "SentenceBoundary", "offset": 738297874, "duration": 139494681, "text": "Facendo nuove ricerche, appresi che, dal punto di vista linguistico e storico, si ritiene che i rom abbiano avuto origine nell'India settentrionale e che si siano spostati verso occidente nel corso di un lungo periodo."}
+{"type": "SentenceBoundary", "offset": 877792555, "duration": 65824468, "text": "Aprendo la voce in inglese, mi sembr\u00f2 che contenesse molte pi\u00f9 informazioni rispetto a quella in giapponese."}
+{"type": "SentenceBoundary", "offset": 943617023, "duration": 53691489, "text": "Non mi piace che ogni cosa venga ricondotta interamente alla struttura dello Stato-nazione."}
+{"type": "SentenceBoundary", "offset": 997308513, "duration": 104154255, "text": "D'altra parte, iniziando a riflettere sui rom, mi incurios\u00ec la differenza tra le comunit\u00e0 radicate in un territorio e quelle che si spostano da un territorio all'altro."}
+{"type": "SentenceBoundary", "offset": 1101462768, "duration": 126196808, "text": "In un'epoca in cui l'agricoltura e le risorse erano strettamente legate alla terra, le comunit\u00e0 che occupavano stabilmente un territorio dovevano avere pi\u00f9 facilit\u00e0 nel costruirsi una base materiale di vita."}
+{"type": "SentenceBoundary", "offset": 1227659577, "duration": 121917553, "text": "Forse chi si spostava doveva vivere al di fuori di quella base produttiva fissa, combinando altre competenze, il commercio, le arti dello spettacolo, il lavoro e diversi servizi."}
+{"type": "SentenceBoundary", "offset": 1349577131, "duration": 68109042, "text": "Questo, tuttavia, non intende spiegare le occupazioni o i modi di vivere dell'intera popolazione rom."}
+{"type": "SentenceBoundary", "offset": 1417686173, "duration": 50930851, "text": "Per ora non \u00e8 che un'ipotesi nata da una singola scena che vidi su un treno."}
+{"type": "SentenceBoundary", "offset": 1468617025, "duration": 133244681, "text": "Oggi l'agricoltura \u00e8 sempre pi\u00f9 meccanizzata e anche chi appartiene a comunit\u00e0 radicate in un territorio lavora nei servizi, nell'informazione, nella finanza, nella tecnologia e in molti altri settori."}
+{"type": "SentenceBoundary", "offset": 1601861706, "duration": 90292553, "text": "Con l'inglese e una connessione alla rete, si pu\u00f2 lasciare il luogo in cui si \u00e8 nati e lavorare attraversando pi\u00f9 paesi e pi\u00f9 sistemi istituzionali."}
+{"type": "SentenceBoundary", "offset": 1692154259, "duration": 84042553, "text": "Se si considera soltanto la possibilit\u00e0 di muoversi nello spazio, anche le persone sedentarie sono diventate pi\u00f9 mobili di un tempo."}
+{"type": "SentenceBoundary", "offset": 1776196813, "duration": 41489361, "text": "Eppure, quella mobilit\u00e0 non equivale a una libert\u00e0 completa."}
+{"type": "SentenceBoundary", "offset": 1817686174, "duration": 60106383, "text": "Chi svolge la propria attivit\u00e0 sui social network sembra non essere legato a un territorio."}
+{"type": "SentenceBoundary", "offset": 1877792557, "duration": 99867021, "text": "Allo stesso tempo, per\u00f2, \u00e8 legato ai follower, al numero di visualizzazioni, alle regole della piattaforma e agli algoritmi di raccomandazione."}
+{"type": "SentenceBoundary", "offset": 1977659579, "duration": 48005319, "text": "Dopo essersi allontanato dalla terra, si \u00e8 collegato a un altro suolo."}
+{"type": "SentenceBoundary", "offset": 2025664898, "duration": 21808510, "text": "Quel suolo non \u00e8 fatto di terra."}
+{"type": "SentenceBoundary", "offset": 2047473409, "duration": 36702127, "text": "\u00c8 un suolo costruito da numeri, regole e pubblico."}
+{"type": "SentenceBoundary", "offset": 2084175537, "duration": 142154255, "text": "Osservato da una certa distanza, un influencer pu\u00f2 apparire non tanto come una persona libera di spostarsi, quanto come una persona che, per vivere, deve continuare a ricevere attenzione dai propri follower."}
+{"type": "SentenceBoundary", "offset": 2226329792, "duration": 65558510, "text": "Questo non significa che tale condizione sia identica a quella di una persona che chiede denaro su un treno."}
+{"type": "SentenceBoundary", "offset": 2291888303, "duration": 27659574, "text": "Le due cose non possono essere equiparate."}
+{"type": "SentenceBoundary", "offset": 2319547878, "duration": 94132978, "text": "Forse, per\u00f2, esiste una lontana somiglianza nella struttura che obbliga a continuare a ricevere qualcosa dagli altri per poter sostenere la propria vita."}
+{"type": "SentenceBoundary", "offset": 2413680857, "duration": 46558510, "text": "Non essere vincolati alla terra non significa non essere vincolati a nulla."}
+{"type": "SentenceBoundary", "offset": 2460239367, "duration": 39627659, "text": "Se ci si allontana dallo Stato, ci si collega al mercato."}
+{"type": "SentenceBoundary", "offset": 2499867027, "duration": 41356383, "text": "Se ci si allontana dal mercato, ci si collega a una comunit\u00e0."}
+{"type": "SentenceBoundary", "offset": 2541223410, "duration": 43750000, "text": "Se ci si allontana dalla comunit\u00e0, ci si collega a una piattaforma."}
+{"type": "SentenceBoundary", "offset": 2584973410, "duration": 25930851, "text": "Le persone non perdono il proprio suolo."}
+{"type": "SentenceBoundary", "offset": 2610904261, "duration": 21143617, "text": "Cambiano il suolo al quale sono"}
+{"type": "SentenceBoundary", "offset": 2634760000, "duration": 10670212, "text": "collegate."}
+{"type": "SentenceBoundary", "offset": 2644930212, "duration": 44414893, "text": "Sentii una parola di cui non comprendevo il significato: \u00abromaru\u00bb."}
+{"type": "SentenceBoundary", "offset": 2689345106, "duration": 24601063, "text": "Non so ancora che cosa significhi."}
+{"type": "SentenceBoundary", "offset": 2713946170, "duration": 111037234, "text": "Eppure, mentre cercavo di scoprirlo, ricordai i rom, riflettei sulla terra e sul movimento e, alla fine, arrivai perfino ai follower dei social network."}
+{"type": "SentenceBoundary", "offset": 2824983404, "duration": 31515957, "text": "Non riuscii a capire il significato della parola."}
+{"type": "SentenceBoundary", "offset": 2856499362, "duration": 35106383, "text": "Ci\u00f2 nonostante, quella parola apr\u00ec un percorso."}
