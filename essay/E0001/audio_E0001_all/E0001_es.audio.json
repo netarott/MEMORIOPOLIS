@@ -1,0 +1,20 @@
+{
+  "status": "generated",
+  "essay_id": "E0001",
+  "language": "es",
+  "source": "C:\\Users\\yasuhide.shinohara\\OneDrive - 株式会社アイネスリレーションズ\\ドキュメント\\GitHub\\MEMORIOPOLIS\\essay\\E0001\\E0001_es.md",
+  "locale": "es-ES",
+  "preferred_voice": "es-ES-ElviraNeural",
+  "voice": "es-ES-ElviraNeural",
+  "rate": "-6%",
+  "source_sha256": "c0065518a9a295de48f906d2ef1f20156e74f2db123faa61b762321a0bc8428c",
+  "narration_sha256": "eb37457f53e7d18667eb66882cef7af0995cab8bf03389779ffd19d88b986a6a",
+  "narration_characters": 4495,
+  "generated_at_utc": "2026-10-08T06:39:21.311440+00:00",
+  "outputs": {
+    "mp3": "C:\\Users\\yasuhide.shinohara\\OneDrive - 株式会社アイネスリレーションズ\\ドキュメント\\GitHub\\MEMORIOPOLIS\\essay\\E0001\\audio_E0001_all\\E0001_es.mp3",
+    "srt": "C:\\Users\\yasuhide.shinohara\\OneDrive - 株式会社アイネスリレーションズ\\ドキュメント\\GitHub\\MEMORIOPOLIS\\essay\\E0001\\audio_E0001_all\\E0001_es.srt",
+    "txt": "C:\\Users\\yasuhide.shinohara\\OneDrive - 株式会社アイネスリレーションズ\\ドキュメント\\GitHub\\MEMORIOPOLIS\\essay\\E0001\\audio_E0001_all\\E0001_es.narration.txt",
+    "json": "C:\\Users\\yasuhide.shinohara\\OneDrive - 株式会社アイネスリレーションズ\\ドキュメント\\GitHub\\MEMORIOPOLIS\\essay\\E0001\\audio_E0001_all\\E0001_es.audio.json"
+  }
+}
